@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URModalProfileViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URModalProfileViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="backgroundView" destination="dJM-8e-8H8" id="TFQ-XT-2qC"/>
                 <outlet property="btClose" destination="gxJ-ul-h1v" id="jua-77-VAD"/>
@@ -32,10 +32,10 @@
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJM-8e-8H8">
                     <rect key="frame" x="18" y="110" width="991" height="365"/>
                     <subviews>
-                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8k9-r2-pUc">
-                            <rect key="frame" x="-7" y="0.0" width="991" height="157"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8k9-r2-pUc">
+                            <rect key="frame" x="0.0" y="0.0" width="991" height="157"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xi9-QR-oYo" customClass="ISRoundedView" customModule="ureport" customModuleProvider="target">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xi9-QR-oYo" customClass="ISRoundedView" customModule="honeybee" customModuleProvider="target">
                                     <rect key="frame" x="453.5" y="18" width="85" height="85"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KHl-c9-iFm">
@@ -91,7 +91,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n2f-WM-BXR">
                             <rect key="frame" x="12" y="175" width="304" height="63"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3si-nq-KKB">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="3si-nq-KKB">
                                     <rect key="frame" x="0.0" y="0.0" width="304" height="34"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="34" id="d5z-pP-GHU"/>
@@ -124,7 +124,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eoh-Lm-9lB">
                             <rect key="frame" x="337" y="175" width="304" height="63"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Polls" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuE-6H-ogQ">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Polls" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="WuE-6H-ogQ">
                                     <rect key="frame" x="0.0" y="0.0" width="304" height="34"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="34" id="nmh-fW-cHZ"/>
@@ -157,7 +157,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDw-ml-lSA">
                             <rect key="frame" x="662" y="175" width="304" height="63"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPB-kL-iFd">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="aPB-kL-iFd">
                                     <rect key="frame" x="0.0" y="0.0" width="304" height="34"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="34" id="l7l-Zs-CLq"/>
@@ -198,7 +198,7 @@
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUj-CJ-yXF">
                             <rect key="frame" x="68" y="302" width="855" height="38"/>
-                            <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="38" id="m81-gb-zF7"/>
                             </constraints>

@@ -48,7 +48,7 @@ class URPasswordEditViewController: UIViewController {
         self.txtNewPassword.placeholder = "new_password".localized
         self.scrollView.contentInset = UIEdgeInsetsMake(-64, 0, 0, 0)        
         self.navigationController!.setNavigationBarHidden(false, animated: false)
-        URNavigationManager.setupNavigationBarWithType(.Blue)
+        URNavigationManager.setupNavigationBarWithType(.Purple)
     }    
 
     //MARK: Button Events

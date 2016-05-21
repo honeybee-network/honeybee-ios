@@ -122,8 +122,6 @@ class URLoginViewController: UIViewController, URUserLoginManagerDelegate, ISTer
         self.btFacebookLogin.setTitle("login_facebook".localized, forState: UIControlState.Normal)
         self.btTwitterLogin.setTitle("login_twitter".localized, forState: UIControlState.Normal)
         self.btGooglePlusLogin.setTitle("login_google".localized, forState: UIControlState.Normal)
-        
-        self.btSignUp.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.5)
     }
     
     //MARK: Button Events

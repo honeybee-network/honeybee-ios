@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
@@ -77,13 +76,13 @@
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="MYR-1b-nPR">
                                     <rect key="frame" x="15" y="178" width="291" height="475"/>
-                                    <string key="text">        U-Report is a free tool for community participation, designed to address issues that the people care about. Once you have signed up you become a U-Reporter and can Chat with other U-Reporters, submit stories and answer the weekly polls. Results and ideas are shared back with the community. Issues polled include health, education, water, sanitation and hygiene, youth unemployment, HIV/AIDS, disease outbreaks and anything else people want to discuss.
+                                    <string key="text">        Honeybee is a free tool for community participation, designed to address issues that the people care about. Once you have signed up you become a Honeybee and can Chat with other Honeybees, submit stories and answer the weekly polls. Results and ideas are shared back with the community. Issues polled include health, education, water, sanitation and hygiene, youth unemployment, HIV/AIDS, disease outbreaks and anything else people want to discuss.
 
         Information is used to connect young people with their representatives, improve UNICEF programmes and draw attention to urgent issues with national governments and the UN. NGOs, civil society and country leaders can see the information on the site to understand what the people want or need.
 
-        Registration is voluntary and U-Reporters incur no costs.
+        Registration is voluntary and U-Honeybees incur no costs.
 
-        Together U-Reporters create positive change in the community, the nation and internationally.</string>
+        Together U-Honeybees create positive change in the community, the nation and internationally.</string>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>

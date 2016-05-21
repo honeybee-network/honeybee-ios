@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>843441539089-a3ksd60vkbvg6v9kef20t8oi8u3hcsq9.apps.googleusercontent.com</string>
+	<string>620613432362-jcjkfosvvm7mun3ik5qua4kj3aoo99v0.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.843441539089-a3ksd60vkbvg6v9kef20t8oi8u3hcsq9</string>
+	<string>com.googleusercontent.apps.620613432362-jcjkfosvvm7mun3ik5qua4kj3aoo99v0</string>
 	<key>GCM_SENDER_ID</key>
-	<string>843441539089</string>
+	<string>620613432362</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>in.ureport</string>
+	<string>org.honeybee</string>
+	<key>PROJECT_ID</key>
+	<string>honeybee-report</string>
 	<key>IS_ADS_ENABLED</key>
 	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<true/>
-	<key>TRACKING_ID</key>
-	<string>UA-62089811-3</string>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
 	<false/>
 	<key>IS_GCM_ENABLED</key>
@@ -25,6 +25,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:843441539089:ios:8970e90be4c0795a</string>
+	<string>1:620613432362:ios:2c0bc0c2c908e190</string>
+	<key>TRACKING_ID</key>
+	<string>UA-62089811-3</string>
 </dict>
 </plist>

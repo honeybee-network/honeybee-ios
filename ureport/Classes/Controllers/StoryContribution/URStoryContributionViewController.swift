@@ -68,7 +68,7 @@ class URStoryContributionViewController: UIViewController, URContributionManager
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        URNavigationManager.setupNavigationBarWithType(URConstant.isIpad ? .Blue : .Clear)
+        URNavigationManager.setupNavigationBarWithType(URConstant.isIpad ? .Purple : .Clear)
         
         if !URConstant.isIpad {
             URNavigationManager.navigation.followScrollView(self.scrollView, delay: 50.0)

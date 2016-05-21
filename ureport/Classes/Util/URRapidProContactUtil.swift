@@ -20,7 +20,7 @@ class URRapidProContactUtil: NSObject {
     static let GROUP_UREPORT_ADULTS = "UReport Adults"
     static let GROUP_UREPORT_MALES = "UReport Males"
     static let GROUP_UREPORT_FEMALES = "UReport Females"
-    static let GROUP_APP_UREPORT = "App U-Reporters"
+    static let GROUP_APP_UREPORT = "App Honeybees"
     
     static var groupList:[String] = []
     

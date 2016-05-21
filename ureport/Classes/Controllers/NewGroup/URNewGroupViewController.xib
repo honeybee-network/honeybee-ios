@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URNewGroupViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URNewGroupViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="btAddPicture" destination="TdT-sE-6Sp" id="4Ed-hD-mK3"/>
                 <outlet property="imgPicture" destination="jEe-bL-Qfi" id="Yrf-v8-IDq"/>
@@ -34,7 +34,7 @@
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cm6-cY-2J7" userLabel="ViewTop">
                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                    <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="203" id="J5B-h5-ZMB"/>
                                     </constraints>
@@ -169,7 +169,7 @@
                                                 <outlet property="delegate" destination="-1" id="pXu-ai-n6y"/>
                                             </connections>
                                         </searchBar>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8D-q9-3k4" userLabel="ViewPictureGroup" customClass="ISRoundedView" customModule="ureport" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8D-q9-3k4" userLabel="ViewPictureGroup" customClass="ISRoundedView" customModule="honeybee" customModuleProvider="target">
                                             <rect key="frame" x="15" y="71" width="83" height="83"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jEe-bL-Qfi">
@@ -200,7 +200,7 @@
                                             </constraints>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="7J6-AS-PMV" secondAttribute="trailing" constant="8" id="84x-2f-V7y">
                                             <variation key="widthClass=regular" constant="8"/>

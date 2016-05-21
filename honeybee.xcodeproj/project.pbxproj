@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		65075AF11C7DF3C6008CF8F3 /* URDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65075AF01C7DF3C6008CF8F3 /* URDownloader.swift */; };
+		650870F91CF09F9000C0F166 /* Key-debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 650870F81CF09F9000C0F166 /* Key-debug.plist */; };
+		650870FC1CF0A2F000C0F166 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650870FB1CF0A2F000C0F166 /* CloudKit.framework */; };
 		650A476D1CDF69ED00197241 /* URAboutViewIPadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650A476C1CDF69ED00197241 /* URAboutViewIPadController.xib */; };
 		6515FB7B1B881AE100CEEC3B /* LaunchImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6515FB781B881AE100CEEC3B /* LaunchImages.xcassets */; };
 		6515FB7C1B881AE100CEEC3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6515FB791B881AE100CEEC3B /* Images.xcassets */; };
@@ -110,6 +112,7 @@
 		65685B4D1BA6686300099CFB /* URStoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685B4C1BA6686300099CFB /* URStoryManager.swift */; };
 		656A2BE41B98C7780079BD6A /* URGCMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A2BE31B98C7780079BD6A /* URGCMManager.swift */; };
 		656AAD001CEFAA4D00426ADB /* URBackendAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AACFF1CEFAA4D00426ADB /* URBackendAuthManager.swift */; };
+		6571F5481CF0ABA400994E87 /* residual.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6571F5471CF0ABA400994E87 /* residual.ttf */; };
 		657629161BE135010095772F /* URModerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657629151BE135010095772F /* URModerationViewController.swift */; };
 		657629191BE13A360095772F /* URModeratorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657629181BE13A360095772F /* URModeratorTableViewController.swift */; };
 		65780CB81C5FFF150025398D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65780CB71C5FFF150025398D /* MobileCoreServices.framework */; };
@@ -117,7 +120,6 @@
 		65816BAC1C74C26D004F9DEB /* URAudioRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65816BAA1C74C26D004F9DEB /* URAudioRecorderViewController.swift */; };
 		65816BAD1C74C26D004F9DEB /* URAudioRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65816BAB1C74C26D004F9DEB /* URAudioRecorderViewController.xib */; };
 		65816BB01C750756004F9DEB /* URAudioRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65816BAF1C750756004F9DEB /* URAudioRecorderManager.swift */; };
-		65816BB41C756C58004F9DEB /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65816BB31C756C58004F9DEB /* CloudKit.framework */; };
 		6585BB101CCFD606000FA60E /* URStoryContributionViewIPadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6585BB0F1CCFD606000FA60E /* URStoryContributionViewIPadController.xib */; };
 		658949BE1B83E1740087F361 /* ISMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658949BC1B83E1740087F361 /* ISMenuViewController.swift */; };
 		658949BF1B83E1740087F361 /* ISMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658949BD1B83E1740087F361 /* ISMenuViewController.xib */; };
@@ -231,7 +233,6 @@
 		9725C5961C0EAE1A00EE1237 /* URAlamofireLogExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9725C5951C0EAE1A00EE1237 /* URAlamofireLogExtension.swift */; };
 		972817A91BFF9C3000FBD20E /* URChoiceResponseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972817A81BFF9C3000FBD20E /* URChoiceResponseView.xib */; };
 		972817AB1BFFCA0800FBD20E /* URResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972817AA1BFFCA0800FBD20E /* URResponseView.swift */; };
-		974249261BFB76570024384E /* Key-debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 974249251BFB76570024384E /* Key-debug.plist */; };
 		974249281BFBB6D40024384E /* URFlowRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974249271BFBB6D40024384E /* URFlowRun.swift */; };
 		9742492A1BFBCEB90024384E /* URRapidPRODateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974249291BFBCEB90024384E /* URRapidPRODateTransform.swift */; };
 		9742492D1BFBD08B0024384E /* URFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9742492C1BFBD08B0024384E /* URFlowManager.swift */; };
@@ -293,6 +294,9 @@
 		30D4A2F49216E9109C180A69 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CB42E22540D34F256E8133 /* Pods_ureport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ureport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65075AF01C7DF3C6008CF8F3 /* URDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URDownloader.swift; sourceTree = "<group>"; };
+		650870F81CF09F9000C0F166 /* Key-debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Key-debug.plist"; sourceTree = "<group>"; };
+		650870FA1CF0A2E700C0F166 /* honeybee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = honeybee.entitlements; sourceTree = "<group>"; };
+		650870FB1CF0A2F000C0F166 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		650A476C1CDF69ED00197241 /* URAboutViewIPadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URAboutViewIPadController.xib; sourceTree = "<group>"; };
 		6515FB781B881AE100CEEC3B /* LaunchImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchImages.xcassets; sourceTree = "<group>"; };
 		6515FB791B881AE100CEEC3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -316,10 +320,10 @@
 		6530BE691B974ADB00C9707C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		6530BE6B1B974E0F00C9707C /* URMessageRead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URMessageRead.swift; sourceTree = "<group>"; };
 		6533CF431C496627009DF49C /* URRapidProContactUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URRapidProContactUtil.swift; sourceTree = "<group>"; };
-		65409FBB1B4C842700344D75 /* ureport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ureport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65409FBB1B4C842700344D75 /* honeybee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = honeybee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65409FBF1B4C842700344D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65409FC01B4C842700344D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65409FD01B4C842700344D75 /* ureportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ureportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65409FD01B4C842700344D75 /* honeybee.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = honeybee.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65409FD51B4C842700344D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65409FD61B4C842700344D75 /* ureportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ureportTests.swift; sourceTree = "<group>"; };
 		65409FEC1B4C84DE00344D75 /* URLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLoginViewController.swift; sourceTree = "<group>"; };
@@ -403,6 +407,7 @@
 		656A2BE31B98C7780079BD6A /* URGCMManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URGCMManager.swift; sourceTree = "<group>"; };
 		656AACFF1CEFAA4D00426ADB /* URBackendAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URBackendAuthManager.swift; sourceTree = "<group>"; };
 		65711A2C1C40502500E05BBD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6571F5471CF0ABA400994E87 /* residual.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = residual.ttf; sourceTree = "<group>"; };
 		657629151BE135010095772F /* URModerationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URModerationViewController.swift; sourceTree = "<group>"; };
 		657629181BE13A360095772F /* URModeratorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URModeratorTableViewController.swift; sourceTree = "<group>"; };
 		65780CB71C5FFF150025398D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -410,7 +415,6 @@
 		65816BAA1C74C26D004F9DEB /* URAudioRecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URAudioRecorderViewController.swift; sourceTree = "<group>"; };
 		65816BAB1C74C26D004F9DEB /* URAudioRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URAudioRecorderViewController.xib; sourceTree = "<group>"; };
 		65816BAF1C750756004F9DEB /* URAudioRecorderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URAudioRecorderManager.swift; sourceTree = "<group>"; };
-		65816BB31C756C58004F9DEB /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		6585BB0F1CCFD606000FA60E /* URStoryContributionViewIPadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URStoryContributionViewIPadController.xib; sourceTree = "<group>"; };
 		658949BC1B83E1740087F361 /* ISMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISMenuViewController.swift; sourceTree = "<group>"; };
 		658949BD1B83E1740087F361 /* ISMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISMenuViewController.xib; sourceTree = "<group>"; };
@@ -529,7 +533,6 @@
 		9725C5951C0EAE1A00EE1237 /* URAlamofireLogExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URAlamofireLogExtension.swift; sourceTree = "<group>"; };
 		972817A81BFF9C3000FBD20E /* URChoiceResponseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = URChoiceResponseView.xib; path = ChoiceResponse/URChoiceResponseView.xib; sourceTree = "<group>"; };
 		972817AA1BFFCA0800FBD20E /* URResponseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URResponseView.swift; path = PollResponse/URResponseView.swift; sourceTree = "<group>"; };
-		974249251BFB76570024384E /* Key-debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Key-debug.plist"; sourceTree = "<group>"; };
 		974249271BFBB6D40024384E /* URFlowRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URFlowRun.swift; sourceTree = "<group>"; };
 		974249291BFBCEB90024384E /* URRapidPRODateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URRapidPRODateTransform.swift; sourceTree = "<group>"; };
 		9742492C1BFBD08B0024384E /* URFlowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URFlowManager.swift; path = FlowManager/URFlowManager.swift; sourceTree = "<group>"; };
@@ -569,7 +572,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65816BB41C756C58004F9DEB /* CloudKit.framework in Frameworks */,
+				650870FC1CF0A2F000C0F166 /* CloudKit.framework in Frameworks */,
 				65780CB81C5FFF150025398D /* MobileCoreServices.framework in Frameworks */,
 				658949D61B861B5E0087F361 /* Security.framework in Frameworks */,
 				658949D41B85775A0087F361 /* Accounts.framework in Frameworks */,
@@ -667,6 +670,7 @@
 		65409FB21B4C842700344D75 = {
 			isa = PBXGroup;
 			children = (
+				650870FA1CF0A2E700C0F166 /* honeybee.entitlements */,
 				65409FF01B4C977600344D75 /* Foundation.framework */,
 				65409FBD1B4C842700344D75 /* ureport */,
 				65409FD31B4C842700344D75 /* ureportTests */,
@@ -679,8 +683,8 @@
 		65409FBC1B4C842700344D75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65409FBB1B4C842700344D75 /* ureport.app */,
-				65409FD01B4C842700344D75 /* ureportTests.xctest */,
+				65409FBB1B4C842700344D75 /* honeybee.app */,
+				65409FD01B4C842700344D75 /* honeybee.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -700,11 +704,11 @@
 		65409FBE1B4C842700344D75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				650870F81CF09F9000C0F166 /* Key-debug.plist */,
+				65685ADB1BA230DA00099CFB /* Key.plist */,
 				65A45CCD1B8694AE001C6808 /* GoogleService-Info.plist */,
 				659A20D01B7EC9EF00D02C69 /* ureport-Bridging-Header.h */,
 				65409FBF1B4C842700344D75 /* Info.plist */,
-				65685ADB1BA230DA00099CFB /* Key.plist */,
-				974249251BFB76570024384E /* Key-debug.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -969,6 +973,7 @@
 		65409FEA1B4C845200344D75 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6571F5471CF0ABA400994E87 /* residual.ttf */,
 				65DFCCF61CE24EC700E4DFD9 /* terms.rtf */,
 				97FBAA581C06447B0012D752 /* iso639_2.bundle */,
 				65EA8C1B1BB048CD00F2E29E /* iso3-country-code.json */,
@@ -1623,7 +1628,7 @@
 		765863F8BACD5E4ED452B82C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				65816BB31C756C58004F9DEB /* CloudKit.framework */,
+				650870FB1CF0A2F000C0F166 /* CloudKit.framework */,
 				65780CB71C5FFF150025398D /* MobileCoreServices.framework */,
 				658949D51B861B5E0087F361 /* Security.framework */,
 				658949D31B85775A0087F361 /* Accounts.framework */,
@@ -1694,9 +1699,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65409FBA1B4C842700344D75 /* ureport */ = {
+		65409FBA1B4C842700344D75 /* honeybee */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65409FDA1B4C842700344D75 /* Build configuration list for PBXNativeTarget "ureport" */;
+			buildConfigurationList = 65409FDA1B4C842700344D75 /* Build configuration list for PBXNativeTarget "honeybee" */;
 			buildPhases = (
 				50C28071DEE32473E2626A8F /* 📦 Check Pods Manifest.lock */,
 				65409FB71B4C842700344D75 /* Sources */,
@@ -1710,14 +1715,14 @@
 			);
 			dependencies = (
 			);
-			name = ureport;
+			name = honeybee;
 			productName = ureport;
-			productReference = 65409FBB1B4C842700344D75 /* ureport.app */;
+			productReference = 65409FBB1B4C842700344D75 /* honeybee.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65409FCF1B4C842700344D75 /* ureportTests */ = {
+		65409FCF1B4C842700344D75 /* honeybeeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65409FDD1B4C842700344D75 /* Build configuration list for PBXNativeTarget "ureportTests" */;
+			buildConfigurationList = 65409FDD1B4C842700344D75 /* Build configuration list for PBXNativeTarget "honeybeeTests" */;
 			buildPhases = (
 				65409FCC1B4C842700344D75 /* Sources */,
 				65409FCD1B4C842700344D75 /* Frameworks */,
@@ -1728,9 +1733,9 @@
 			dependencies = (
 				65409FD21B4C842700344D75 /* PBXTargetDependency */,
 			);
-			name = ureportTests;
+			name = honeybeeTests;
 			productName = ureportTests;
-			productReference = 65409FD01B4C842700344D75 /* ureportTests.xctest */;
+			productReference = 65409FD01B4C842700344D75 /* honeybee.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1752,6 +1757,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 							com.apple.iCloud = {
 								enabled = 1;
 							};
@@ -1764,7 +1772,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65409FB61B4C842700344D75 /* Build configuration list for PBXProject "ureport" */;
+			buildConfigurationList = 65409FB61B4C842700344D75 /* Build configuration list for PBXProject "honeybee" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1779,8 +1787,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65409FBA1B4C842700344D75 /* ureport */,
-				65409FCF1B4C842700344D75 /* ureportTests */,
+				65409FBA1B4C842700344D75 /* honeybee */,
+				65409FCF1B4C842700344D75 /* honeybeeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1799,6 +1807,7 @@
 				658D14B01C99F482009A63A5 /* URAudioView.xib in Resources */,
 				6515FB7C1B881AE100CEEC3B /* Images.xcassets in Resources */,
 				658D857C1B5457CC00DFB949 /* URLoginCredentialsViewController.xib in Resources */,
+				6571F5481CF0ABA400994E87 /* residual.ttf in Resources */,
 				658BD0321CEBB0540019E885 /* URPollResultViewController.xib in Resources */,
 				65D0F3AC1BA8E13500E5D367 /* URMyChatsViewController.xib in Resources */,
 				6555323A1C51683E002F6AFC /* URMediaSourceViewController.xib in Resources */,
@@ -1811,7 +1820,6 @@
 				65F8B3081BE2D712009F9CAB /* URNewsDetailViewController.xib in Resources */,
 				6548506C1BB1EFAC0002A3D5 /* URPollResultTableViewCell.xib in Resources */,
 				658D14A91C99EF2C009A63A5 /* URMediaAudioView.xib in Resources */,
-				974249261BFB76570024384E /* Key-debug.plist in Resources */,
 				6515FB7B1B881AE100CEEC3B /* LaunchImages.xcassets in Resources */,
 				65A45CD31B8768D8001C6808 /* URNewsTableViewCell.xib in Resources */,
 				65FAF0D41BC41AF300F8B380 /* URGroupDetailsViewController.xib in Resources */,
@@ -1826,6 +1834,7 @@
 				65FAF0CA1BC2C2E200F8B380 /* URPasswordEditViewController.xib in Resources */,
 				65816BAD1C74C26D004F9DEB /* URAudioRecorderViewController.xib in Resources */,
 				658D14BE1C9B4DB7009A63A5 /* URMediaFileView.xib in Resources */,
+				650870F91CF09F9000C0F166 /* Key-debug.plist in Resources */,
 				658D14CA1C9C3201009A63A5 /* URMediaImageView.xib in Resources */,
 				650A476D1CDF69ED00197241 /* URAboutViewIPadController.xib in Resources */,
 				65A45CF01B8810DE001C6808 /* URInviteTableViewCell.xib in Resources */,
@@ -2119,7 +2128,7 @@
 /* Begin PBXTargetDependency section */
 		65409FD21B4C842700344D75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65409FBA1B4C842700344D75 /* ureport */;
+			target = 65409FBA1B4C842700344D75 /* honeybee */;
 			targetProxy = 65409FD11B4C842700344D75 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2156,7 +2165,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Amaral (3R99K72W3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: UNICEF (5DSXDX2N9P)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2178,7 +2187,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "4245c382-0b92-41ea-a61d-1dfb749c4353";
+				PROVISIONING_PROFILE = "254ff5a8-0bfc-43b0-b073-918cc0465f45";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2202,7 +2211,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Amaral (3R99K72W3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: UNICEF (5DSXDX2N9P)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2217,7 +2226,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "4245c382-0b92-41ea-a61d-1dfb749c4353";
+				PROVISIONING_PROFILE = "254ff5a8-0bfc-43b0-b073-918cc0465f45";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2230,7 +2239,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = ureport/ureport.entitlements;
+				CODE_SIGN_ENTITLEMENTS = honeybee.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -2241,7 +2250,8 @@
 				INFOPLIST_FILE = ureport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.honeybee;
+				PRODUCT_NAME = honeybee;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ureport/ureport-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2254,7 +2264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_ENTITLEMENTS = ureport/ureport.entitlements;
+				CODE_SIGN_ENTITLEMENTS = honeybee.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
@@ -2265,7 +2275,8 @@
 				INFOPLIST_FILE = ureport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.honeybee;
+				PRODUCT_NAME = honeybee;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ureport/ureport-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2288,9 +2299,9 @@
 				);
 				INFOPLIST_FILE = ureportTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = honeybee;
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ureport.app/ureport";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/honeybee.app/honeybee";
 			};
 			name = Debug;
 		};
@@ -2306,16 +2317,16 @@
 				);
 				INFOPLIST_FILE = ureportTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = honeybee;
 				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ureport.app/ureport";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/honeybee.app/honeybee";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65409FB61B4C842700344D75 /* Build configuration list for PBXProject "ureport" */ = {
+		65409FB61B4C842700344D75 /* Build configuration list for PBXProject "honeybee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65409FD81B4C842700344D75 /* Debug */,
@@ -2324,7 +2335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65409FDA1B4C842700344D75 /* Build configuration list for PBXNativeTarget "ureport" */ = {
+		65409FDA1B4C842700344D75 /* Build configuration list for PBXNativeTarget "honeybee" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65409FDB1B4C842700344D75 /* Debug */,
@@ -2333,7 +2344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65409FDD1B4C842700344D75 /* Build configuration list for PBXNativeTarget "ureportTests" */ = {
+		65409FDD1B4C842700344D75 /* Build configuration list for PBXNativeTarget "honeybeeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65409FDE1B4C842700344D75 /* Debug */,

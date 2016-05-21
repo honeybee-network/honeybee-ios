@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URProfileViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URProfileViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="btEdit" destination="EUz-ir-eT7" id="jLq-GF-vwx"/>
                 <outlet property="btLogout" destination="pe6-qD-Amo" id="1fW-hR-fKv"/>
@@ -33,7 +33,7 @@
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6op-5R-dZt">
                                     <rect key="frame" x="0.0" y="0.0" width="1025" height="232"/>
-                                    <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="232" id="UfL-U1-saE"/>
                                     </constraints>
@@ -44,7 +44,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7M-cJ-b70">
                                             <rect key="frame" x="0.0" y="0.0" width="1025" height="189"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGK-Ld-Afh" customClass="ISRoundedView" customModule="ureport" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGK-Ld-Afh" customClass="ISRoundedView" customModule="honeybee" customModuleProvider="target">
                                                     <rect key="frame" x="482" y="35" width="60" height="60"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VEL-BN-DRa">
@@ -82,7 +82,7 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EUz-ir-eT7">
                                                     <rect key="frame" x="72" y="136" width="436.5" height="30"/>
-                                                    <color key="backgroundColor" red="0.32549019610000002" green="0.59607843140000005" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.30980392156862746" green="0.28627450980392155" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="p0K-tb-aVz"/>
                                                     </constraints>
@@ -96,8 +96,8 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe6-qD-Amo">
-                                                    <rect key="frame" x="516.5" y="136" width="436.5" height="30"/>
-                                                    <color key="backgroundColor" red="0.32549019610000002" green="0.59607843140000005" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <rect key="frame" x="516" y="136" width="436.5" height="30"/>
+                                                    <color key="backgroundColor" red="0.30980392156862746" green="0.28627450980392155" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="AoF-ao-r1Y"/>
                                                     </constraints>
@@ -111,7 +111,7 @@
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="g6L-BY-NZ5" secondAttribute="trailing" constant="23" id="06O-51-RtM"/>
                                                 <constraint firstItem="EUz-ir-eT7" firstAttribute="leading" secondItem="y7M-cJ-b70" secondAttribute="leading" constant="72" id="4vv-9y-rWe"/>
@@ -149,7 +149,7 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="rp1-Od-kAN">
                                             <rect key="frame" x="0.0" y="189" width="513" height="43"/>
-                                            <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="43" id="ceW-XY-sfQ"/>
                                             </constraints>
@@ -163,7 +163,7 @@
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="U5g-L9-b7f">
                                             <rect key="frame" x="513" y="189" width="512.5" height="43"/>
-                                            <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="43" id="3gf-Nu-Pv3"/>
                                             </constraints>

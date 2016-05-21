@@ -6,7 +6,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URAboutViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URAboutViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="btFacebook" destination="h3E-Bo-eKT" id="Hp1-aD-X0P"/>
                 <outlet property="btTwitter" destination="bw7-66-6tS" id="fx1-cj-PtZ"/>
@@ -36,13 +36,13 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="425" id="Wcf-Gf-tsa"/>
                                             </constraints>
-                                            <string key="text">        U-Report is a free tool for community participation, designed to address issues that the people care about. Once you have signed up you become a U-Reporter and can Chat with other U-Reporters, submit stories and answer the weekly polls. Results and ideas are shared back with the community. Issues polled include health, education, water, sanitation and hygiene, youth unemployment, HIV/AIDS, disease outbreaks and anything else people want to discuss.
+                                            <string key="text">        Honeybee is a free tool for community participation, designed to address issues that the people care about. Once you have signed up you become a Honeybee and can Chat with other Honeybees, submit stories and answer the weekly polls. Results and ideas are shared back with the community. Issues polled include health, education, water, sanitation and hygiene, youth unemployment, HIV/AIDS, disease outbreaks and anything else people want to discuss.
 
         Information is used to connect young people with their representatives, improve UNICEF programmes and draw attention to urgent issues with national governments and the UN. NGOs, civil society and country leaders can see the information on the site to understand what the people want or need.
 
-        Registration is voluntary and U-Reporters incur no costs.
+        Registration is voluntary and U-Honeybees incur no costs.
 
-        Together U-Reporters create positive change in the community, the nation and internationally.</string>
+        Together U-Honeybees create positive change in the community, the nation and internationally.</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -86,7 +86,7 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bw7-66-6tS" customClass="ISRoundedButton" customModule="ureport" customModuleProvider="target">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bw7-66-6tS" customClass="ISRoundedButton" customModule="honeybee" customModuleProvider="target">
                                             <rect key="frame" x="185" y="450" width="30" height="30"/>
                                             <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
@@ -98,7 +98,7 @@
                                                 <action selector="btTwitterTapped:" destination="-1" eventType="touchUpInside" id="gz1-1x-0CF"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3E-Bo-eKT" customClass="ISRoundedButton" customModule="ureport" customModuleProvider="target">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3E-Bo-eKT" customClass="ISRoundedButton" customModule="honeybee" customModuleProvider="target">
                                             <rect key="frame" x="141" y="450" width="30" height="30"/>
                                             <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>

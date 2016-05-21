@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URMyChatsViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URMyChatsViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="btSee" destination="dvO-oP-o8U" id="Fvl-ax-JJW"/>
                 <outlet property="lbDescriptionOpenGroups" destination="Xvn-qw-G3x" id="Wn0-Nb-dOl"/>
@@ -34,7 +34,7 @@
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvO-oP-o8U">
                             <rect key="frame" x="287" y="102" width="75" height="29"/>
-                            <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="29" id="FAK-mc-af4"/>
                                 <constraint firstAttribute="width" constant="75" id="xmM-j3-3ux"/>

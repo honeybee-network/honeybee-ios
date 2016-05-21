@@ -6,7 +6,7 @@
   Copyright (c) 2015 ilhasoft. All rights reserved.
 */
 
-"app_name" = "U-Report";
+"app_name" = "Honeybee";
 "login_email" = "Correo Electrónico";
 "login_password" = "Clave";
 "email" = "Correo Electrónico";
@@ -30,7 +30,7 @@
 "label_home" = "Principal";
 "load_message_wait" = "Espera...";
 "main_stories" = "Historias";
-"main_polls" = "Encuestas";
+"main_polls" = "Desafíos";
 "main_news_feed" = "Programar noticias";
 "main_menu_home" = "Principal";
 "main_menu_chat" = "Chat";
@@ -41,7 +41,7 @@
 "base_menu_close_drawer" = "Cerrar menú";
 "stories_list_item_author" = "por %d";
 "stories_list_item_contributions" = "%d aportes";
-"story_item_read_full_story" = "Ver historia completa";
+"story_item_read_full_story" = "Ver Historia completa";
 "label_new_story" = "Nueva hisoria";
 "create_story_insert_cover" = "Insertar una imagen de portada";
 "create_story_insert_title" = "Escribir título";
@@ -55,17 +55,17 @@
 "action_title_publish" = "Publicar";
 "action_label_search" = "Buscar";
 "create_story_add_marker_title" = "Nuevo marcador";
-"label_story_view" = "Vista de historia";
-"story_view_contribute" = "Contribuir a esta historia";
+"label_story_view" = "Vista de Historia";
+"story_view_contribute" = "Contribuir a este Historia";
 "story_contribution_add" = "Agregar aporte";
 "polls_participate" = "Responder";
-"polls_current" = "Encuesta actual";
-"polls_responded_info" = "%@ respuestas de %@ encuestadxs";
+"polls_current" = "Desafío actual";
+"polls_responded_info" = "%@ respuestas de %@ Desafíos";
 "polls_response_rate" = "%d tasa de respuesta";
 "polls_see_results" = "Ver resultados";
 "news_more_statistics" = "Más estadísticas";
-"news_ureporters" = "U-Reporters";
-"news_statistics_global_ureporters" = "U-Reporters globales";
+"news_ureporters" = "Honeybees";
+"news_statistics_global_ureporters" = "Honeybees globales";
 "news_statistics_gender_rate" = "Tasa por género";
 "news_statistics_most_active" = "4 regiones más activas";
 "news_statistics_age_rate" = "Tasa por edad";
@@ -73,7 +73,7 @@
 "answer_poll_choose_error" = "Debes escoger una respuesta!";
 "confirm_neutral_dialog_button" = "Ok";
 "answer_poll_greetings_title" = "¡Felicitaciones!";
-"answer_poll_greeting_message" = "Gracias por participar en esta encuesta. Los resultados estarán disponibles prontamente";
+"answer_poll_greeting_message" = "Gracias por participar en este Desafío. Los resultados estarán disponibles prontamente";
 "label_poll_results" = "Todos los resultados";
 "label_poll_region_results" = "Resultados por región";
 "poll_results_by_region" = "Ver resultados por región";
@@ -81,11 +81,11 @@
 "label_profile" = "Perfil";
 "label_edit" = "Editar";
 "label_logout" = "Salir";
-"profile_my_stories" = "Mis historias";
-"profile_answered_polls" = "Encuestas contestadas";
+"profile_my_stories" = "Mis Historias";
+"profile_answered_polls" = "Desafíos contestados";
 "profile_ranking" = "Ranking";
-"list_stories_error" = "No has publicado historias";
-"profile_polls" = "Encuesta: %d";
+"list_stories_error" = "No has publicado Historias";
+"profile_polls" = "Desafío: %d";
 "profile_stories" = "Historias: %d$s";
 "menu_points" = "Puntos: %d";
 "label_chat_groups" = "Grupos abiertos";
@@ -96,22 +96,22 @@
 "chat_invite" = "Invitar";
 "label_new_chat" = "Nuevo chat";
 "chat_create_group_title" = "Crear un grupo";
-"chat_ureporters" = "U-Reporters";
+"chat_ureporters" = "Honeybees";
 "chat_group_title_hint" = "Título del grupo";
 "chat_private_group_title" = "Grupo privado";
-"chat_new_invite_ureporters" = "Buscar U-Reporters";
-"chat_new_invite_ureporters_count" = "%d U-reporters";
+"chat_new_invite_ureporters" = "Buscar Honeybees";
+"chat_new_invite_ureporters_count" = "%d Honeybees";
 "label_save" = "Guardar";
 "chat_create_result_title" = "¡Éxito!";
 "chat_create_group_result_message" = "El grupo ha sido creado con éxito";
 "chat_group_description_hint" = "Descripción";
 "label_create_group" = "Crear un grupo";
-"chat_create_individual_message" = "Te gustaría crear una nueva habitación de chat con este U-Reporter?";
+"chat_create_individual_message" = "Te gustaría crear una nueva habitación de chat con este Honeybeeer?";
 "error_chat_create_individual" = "Ya tienes una habitación de chat con este usuario. No es posible duplicar.";
 "cancel_dialog_button" = "Cancelar";
 "label_action_notifications" = "Notificaciones";
-"about_content" = "U-Report es una herramienta gratis para la participación comunitaria, diseñada para abordar temas que le interesan a lxs jóvenes. Una vez que te registras pasas a ser un/a U-Reporter y puedes chatear con otrxs U-Reporters, contestar encuestas semanalmente, y enviar tus propias historias. Los resultados e ideas son luego compartidos con la comunidad de U-Report. Los temas de las encuestas incluyen HIV/Sida, brotes de enfermedades, paz, salud, educación, agua, higiene, empleo juvenil, y cualquiera que las personas quieran tratar. La información es después usada para conectar a las personas con sus representantes, mejorar los programas de UNICEF, y llamar la atención de los gobiernos, Naciones Unidas, organizaciones de la sociedad civil y autoridades en general, sobre temas de suma urgencia. Nuestro objetivo es que ellxs usen esta información. El registro es voluntario, y no hay costos asociados para lxs U-Reporters. Juntxs, lxs U-Reporters pueden crear cambios positivos internacionalmente, en su país, o comunidad.";
-"label_about_ureport" = "Acerca de U-Report";
+"about_content" = "Honeybee es una herramienta gratis para la participación comunitaria, diseñada para abordar temas que le interesan a lxs jóvenes. Una vez que te registras pasas a ser un/a Honeybeeer y puedes chatear con otrxs Honeybees, contestar Desafíos semanalmente, y enviar tus propias Historias. Los resultados e ideas son luego compartidos con la comunidad de Honeybee. Los temas de los Desafíos incluyen HIV/Sida, brotes de enfermedades, paz, salud, educación, agua, higiene, empleo juvenil, y cualquiera que las personas quieran tratar. La información es después usada para conectar a las personas con sus representantes, mejorar los programas de UNICEF, y llamar la atención de los gobiernos, Naciones Unidas, organizaciones de la sociedad civil y autoridades en general, sobre temas de suma urgencia. Nuestro objetivo es que ellxs usen esta información. El registro es voluntario, y no hay costos asociados para lxs Honeybees. Juntxs, lxs Honeybees pueden crear cambios positivos internacionalmente, en su país, o comunidad.";
+"label_about_ureport" = "Acerca de Honeybee";
 "about_subtitle" = "Tu voz\nImporta";
 "donation_subtitle" = "Cuando haces una donación";
 "label_make_donation_subtitle" = "Hacer una donación";
@@ -126,23 +126,23 @@
 "login_validation_error_message" = "Necesitas registrarte antes de esta acción. Quieres registrarte ahora?";
 "label_chat" = "Chat";
 "login_forgot_password" = "Olvidaste tu clave?";
-"story_item_contribute_to_story" = "Contribuir a esta historia";
+"story_item_contribute_to_story" = "Contribuir a este Historia";
 "list_stories_header_title" = "Hola %@, cuéntanos qué está pasando";
 "main_menu_group_institutional" = "Institucional";
 "label_settings" = "Configuración";
-"group_info_add_ureporter" = "Agregar U-Reporter";
+"group_info_add_ureporter" = "Agregar Honeybeer";
 "label_group_information" = "Información";
 "country_program_validation_error" = "No puedes hacer esta acción en el programa de este país!";
 "label_group_edit" = "Editar grupo";
-"label_answer_poll" = "Contestar encuesta";
+"label_answer_poll" = "Contestar Desafío";
 "points_earning_title" = "Gracias por colaborar!";
 "points_earning_subtitle" = "Has subido en el ranking";
 "points_earning_count_title" = "Puntos:";
 "points_earning_ranking" = "ir a ranking";
 "points_earning_close" = "Cerrar";
-"polls_previous_title" = "Encuesta previa";
+"polls_previous_title" = "Desafío previa";
 "switch_country_program" = "Cambiar de país";
-"about_title" = "Acerca de U-Report";
+"about_title" = "Acerca de Honeybee";
 "label_unicef_ambassadors" = "Embajadores de UNICEF";
 "ambassadors_subtitle" = "Embajador de buena voluntad";
 "ambassadors_all_button" = "Ver todxs lxs embajadores de UNICEF";
@@ -154,7 +154,7 @@
 "caching_user_load_message" = "Guardando usuario...";
 "error_email_already_exists" = "Ya hay un usuario registrado con este mail. Por favor usa una dirección diferente!";
 "error_nickname_already_exists" = "Ya hay un usuario usando ese apodo. Por favor escoge otro!";
-"publishing_story_load_message" = "Publicando historia";
+"publishing_story_load_message" = "Publicando Historia";
 "load_message_publishing_contribution" = "Publicando... ";
 "date_now" = "Ahora mismo";
 "load_registering_user" = "Registrando usuario...";
@@ -169,7 +169,7 @@
 "label_data_confirmation" = "Confirmación de datos";
 "load_message_save_user" = "Guardando usuario...";
 "error_no_internet" = "Por favor conéctate a internet antes de continuar";
-"invite_contact_text" = "Te invito a chatear conmigo en la App de U-Report! Descárgala acá http://goo.gl/Xxyodt";
+"invite_contact_text" = "Te invito a chatear conmigo en la App de Honeybee! Descárgala acá http://goo.gl/Xxyodt";
 "ureporters_selected_maximum" = "El número máximo de usuarios seleccionados es %d";
 "chat_private_media_permission_title" = "Media permitida";
 "search_title" = "Buscar";
@@ -184,7 +184,7 @@
 "error_choose_district" = "Selecciona distrito";
 "error_rapidpro" = "Ha ocurrido un error durante tu proceso de registro. Por favor  inténtalo más tarde.";
 "load_message_user_data" = "Cargando datos de usuario.";
-"summary_notification" = "U-Report";
+"summary_notification" = "Honeybee";
 "hint_search_groups" = "Buscar grupos";
 "hint_search_chat_rooms" = "Buscar habitaciones de chat";
 "label_close_group" = "Cerrar grupo";
@@ -209,35 +209,35 @@
 "change_password_title" = "Escribe más abajo tu antigua contraseña y la nueva";
 "error_change_password" = "La contraseña es incorrecta";
 "title_poll_question_user" = "Hola %@!";
-"poll_question_latest_results" = "Resultado de encuestas anteriores";
+"poll_question_latest_results" = "Resultado de Desafíos anteriores";
 "view_title" = "Ver";
 "poll_response_hint" = "Haz click acá para responder";
-"poll_question_default_message" = "Esperar a próxima encuesta o enviar mensaje a U-Report más abajo.";
+"poll_question_default_message" = "Esperar o próximo Desafío o enviar mensaje a Honeybee más abajo.";
 "main_chat" = "Chat";
 "title_open_groups" = "Seguir grupos";
-"description_open_groups" = "Ver lo que las comunidades de U-Report están hablando";
+"description_open_groups" = "Ver lo que las comunidades de Honeybee están hablando";
 "title_see" = "Ver";
 "label_invite_contacts" = "Invitar contactos";
-"title_poll_question_no_login" = "Necesitas registrarte para contestar encuestas";
-"label_last_polls" = "Resultado de encuestas anteriores";
+"title_poll_question_no_login" = "Necesitas registrarte para contestar Desafíos";
+"label_last_polls" = "Resultado de Desafíos anteriores";
 "choice_result_value" = "%d %%";
 "stories_moderation" = "Historias";
 "label_moderation" = "Moderación";
 "title_moderation" = "%d moderación";
 "button_title_disapprove" = "Desaprobar";
 "button_title_publish" = "Publicar";
-"success_story_update_message" = "La historia fue actualizada exitosamente";
-"message_story_publish_warning" = "Tu historia ha sido enviada al equipo de U-Report. Chequea más tarde para verla publicada.";
+"success_story_update_message" = "La Historia fue actualizada exitosamente";
+"message_story_publish_warning" = "Tu Historia ha sido enviada al equipo de Honeybee. Chequea más tarde para verla publicada.";
 "label_remove" = "Quitar";
 "error_remove" = "Ha ocurrido un error";
 "message_success_remove" = "Los datos han sido removidos exitosamente";
-"title_share_story" = "Comparte historia usando:";
+"title_share_story" = "Comparte Historia usando:";
 "title_share_news" = "Comparte noticias usando:";
-"title_share_subject" = "Historia compartida usando U-Report";
-"story_share_info" = "Descarga la App de U-Report: http://goo.gl/Xxyodt";
+"title_share_subject" = "Historia compartida usando Honeybee";
+"story_share_info" = "Descarga la App de Honeybee: http://goo.gl/Xxyodt";
 "label_country_moderator" = "Moderadores de país";
 "message_success_user_update" = "Usuario actualizado exitosamente";
-"ureport_message_title" = "Mensaje U-Report";
+"ureport_message_title" = "Mensaje Honeybee";
 "message_remove_chat_message" = "Seguro que quieres borrar este mensaje?";
 "message_delete_message_success" = "Tu mensaje ha sido borrado exitosamente!";
 "message_individual_chat_blocked" = "Esta habitación de chateo ha sido bloqueada por %@";
@@ -254,9 +254,9 @@
 "text_donate" = "Donar";
 "label_chat_picture_notification" = "Imagen";
 "get_started_title" = "Comenzar";
-"ureport_contribution_notification_title" = "Agregar nueva información a una historia";
-"title_tutorial" = "Una vez que te registras para ser U-Reporter puedes:";
-"message_send_poll" = "Enviando respuesta a encuesta...";
+"ureport_contribution_notification_title" = "Agregar nueva información a una Historia";
+"title_tutorial" = "Una vez que te registras para ser Honeybeeer puedes:";
+"message_send_poll" = "Enviando respuesta de lo Desafío...";
 "message_response_sent" = "Respuesta enviada exitosamente!";
 "message_question_profile_picture" = "Quieres cambiar tu foto de perfil?";
 "message_youtube_link" = "Copia el link de Youtube:";
@@ -264,7 +264,7 @@
 "hint_youtube_link" = "Link de Yutube";
 "error_video_load" = "Ha ocurrido un error mientras se subía el video";
 "title_click_to_play" = "Click para play";
-"message_story_disapproved" = "Esta historia ha sido desaprobada.";
+"message_story_disapproved" = "este Historia ha sido desaprobada.";
 "title_chat_message" = "Nuevo mensaje de chat";
 "prompt_media_notification" = "media";
 "error_message_permission" = "No es posible iniciar sesión con Google+ sin permisos";
@@ -274,7 +274,7 @@
 "group_min_user" = "Un grupo debe tener al menos 2 personas";
 "feature_without_permission" = "No se le permite acceder a esta característica.";
 "is_empty" = "%@ está vacío";
-"story_empty" = "Inserte una historia";
+"story_empty" = "Inserte una Historia";
 "login_password_error" = "Login/Contraseña incorrecta";
 "loading_states" = "Por favor espere, loading states...";
 "state" = "Estado";
@@ -285,7 +285,7 @@
 "new_group" = "Grupo nuevo";
 "open" = "Abra";
 "switch_language" = "Cambiar idioma";
-"poll_results" = "Resultados de la Encuesta";
+"poll_results" = "Resultados de lo Desafío";
 "remove_group" = "Eliminar grupo";
 "choose_option" = "Elija una opción";
 "login_required" = "Requiere Login";
@@ -305,12 +305,12 @@
 
 //TUTORIAL
 
-"tutorial_title1" = "Crea historias";
-"tutorial_description1" = "Amplifica tu voz y comparte lo que está pasando en tu comunidad creando y comentando historias.";
-"tutorial_title2" = "Responde encuestas";
-"tutorial_description2" = "Semanalmente, y junto a millones de U-Reporters, contesta encuestas sobre temas que te impactan a ti y a tu comunidad. Los resultados serán compartidos.";
+"tutorial_title1" = "Crea Historias";
+"tutorial_description1" = "Amplifica tu voz y comparte lo que está pasando en tu comunidad creando y comentando Historias.";
+"tutorial_title2" = "Responde Desafíos";
+"tutorial_description2" = "Semanalmente, y junto a millones de Honeybees, contesta Desafíos sobre temas que te impactan a ti y a tu comunidad. Los resultados serán compartidos.";
 "tutorial_title3" = "Chatea gratis";
-"tutorial_description3" = "Chatea con otrxs U-Reporters y sigue grupos que hablen sobre temas que te interesen.";
+"tutorial_description3" = "Chatea con otrxs Honeybees y sigue grupos que hablen sobre temas que te interesen.";
 
 //MARKERS
 

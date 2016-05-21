@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>U-Report</string>
+	<string>Honeybee</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>in.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -39,7 +39,7 @@
 			<string>FacebookURL</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1021658627874726</string>
+				<string>fb1056624294399086</string>
 			</array>
 		</dict>
 		<dict>
@@ -49,17 +49,17 @@
 			<string>GoogleURL</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.843441539089-a3ksd60vkbvg6v9kef20t8oi8u3hcsq9</string>
-				<string>in.ureport</string>
+				<string>com.googleusercontent.apps.620613432362-jcjkfosvvm7mun3ik5qua4kj3aoo99v0</string>
+				<string>org.honeybee</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>2</string>
 	<key>FacebookAppID</key>
-	<string>1021658627874726</string>
+	<string>1056624294399086</string>
 	<key>FacebookDisplayName</key>
-	<string>U-Report</string>
+	<string>Honeybee</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
@@ -96,6 +96,10 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>residual.ttf</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

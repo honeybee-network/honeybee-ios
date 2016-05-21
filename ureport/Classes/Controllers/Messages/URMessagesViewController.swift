@@ -94,7 +94,7 @@ class URMessagesViewController: JSQMessagesViewController, URChatMessageManagerD
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        URNavigationManager.setupNavigationBarWithType(.Blue)
+        URNavigationManager.setupNavigationBarWithType(.Purple)
         self.navigationController!.setNavigationBarHidden(false, animated: false)
         
         let tracker = GAI.sharedInstance().defaultTracker

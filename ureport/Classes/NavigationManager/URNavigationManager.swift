@@ -11,7 +11,7 @@ import AMScrollingNavbar
 
 enum URNavigationBarType {
     case Clear
-    case Blue
+    case Purple
     case Yellow
 }
 
@@ -84,7 +84,7 @@ class URNavigationManager: NSObject, SWRevealViewControllerDelegate {
     
     class func setupNavigationDefaultAtrributes() {
         self.navigation!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(),
-            NSFontAttributeName:UIFont(name: "Avenir-Light", size: 20) as! AnyObject
+            NSFontAttributeName:UIFont(name: "Residu?ln?", size: 20) as! AnyObject
         ]
         
         self.navigation.navigationBar.tintColor = UIColor.whiteColor()
@@ -101,7 +101,7 @@ class URNavigationManager: NSObject, SWRevealViewControllerDelegate {
                 self.navigation.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
             })
         break
-        case .Blue:
+        case .Purple:
             UIView.animateWithDuration(0, animations: { () -> Void in
                 let defaultNavigationController = UINavigationController()
                 self.navigation.navigationBar.barTintColor = URConstant.Color.PRIMARY

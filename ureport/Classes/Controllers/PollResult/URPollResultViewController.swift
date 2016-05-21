@@ -35,6 +35,11 @@ class URPollResultViewController: UIViewController, URPollManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
+        
+        if !URConstant.isIpad {
+            self.btComment.hidden = false
+        }
+        
         self.title = "poll_results".localized
     }
     
@@ -123,6 +128,7 @@ class URPollResultViewController: UIViewController, URPollManagerDelegate {
         self.tableView.separatorColor = UIColor.groupTableViewBackgroundColor()
         self.tableView.layoutMargins = UIEdgeInsetsZero
         self.tableView.separatorInset = UIEdgeInsetsZero
+        self.tableView.alwaysBounceVertical = false
     }
     
     //MARK: Button Events

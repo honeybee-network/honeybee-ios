@@ -146,7 +146,7 @@ class URClosedPollTableViewController: UIViewController, URPollManagerDelegate, 
         self.tableView.layoutMargins = UIEdgeInsetsZero
         self.tableView.separatorInset = UIEdgeInsetsZero
         
-        URNavigationManager.setupNavigationBarWithType(.Blue)
+        URNavigationManager.setupNavigationBarWithType(.Purple)
     }
     
     private func loadCurrentFlow() {

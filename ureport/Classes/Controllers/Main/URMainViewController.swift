@@ -56,7 +56,7 @@ class URMainViewController: UITabBarController, UITabBarControllerDelegate, URCl
         }
         
         setupViewControllers()
-        self.title = "U-Report"
+        self.title = "Honeybee"
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -199,7 +199,7 @@ class URMainViewController: UITabBarController, UITabBarControllerDelegate, URCl
     func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
         
         if viewController is URStoriesTableViewController {
-            self.title = "U-Report"            
+            self.title = "Honeybee"            
             if URUserManager.userHasPermissionToAccessTheFeature(false) == true {
                 self.navigationItem.rightBarButtonItems = nil
                 self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Compose, target: self, action: #selector(newStory))
@@ -212,7 +212,7 @@ class URMainViewController: UITabBarController, UITabBarControllerDelegate, URCl
         }
         
         if viewController is URMyChatsViewController || viewController is URMyChatsIPadViewController {
-            self.title = "U-Report"
+            self.title = "Honeybee"
             self.navigationItem.rightBarButtonItems = addRightBarButtons()
         }
         

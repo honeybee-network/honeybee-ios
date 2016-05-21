@@ -253,7 +253,7 @@ class URProfileViewController: UIViewController, URStoryManagerDelegate, URUserM
             isBtMyStoriesTapped = true
             self.tableviewMyStories.hidden = false
             self.tableviewRanking.hidden = true
-            btMyStories.backgroundColor = URConstant.Color.DARK_BLUE
+            btMyStories.backgroundColor = URConstant.Color.DARK_PURPLE
             btRanking.backgroundColor = URConstant.Color.PRIMARY
             isBtAnsweredPollsTapped = false
             isBtRankingTapped = false
@@ -278,7 +278,7 @@ class URProfileViewController: UIViewController, URStoryManagerDelegate, URUserM
             self.tableviewMyStories.hidden = true
             self.tableviewRanking.hidden = false
             btMyStories.backgroundColor = URConstant.Color.PRIMARY
-            btRanking.backgroundColor = URConstant.Color.DARK_BLUE
+            btRanking.backgroundColor = URConstant.Color.DARK_PURPLE
             isBtMyStoriesTapped = false
             isBtAnsweredPollsTapped = false
         }

@@ -225,7 +225,7 @@ class URRapidProManager: NSObject {
         let headers = [
             "Authorization": URCountryProgramManager.getTokenOfCountryProgram(URCountryProgramManager.getCountryProgramByCountry(country))!
         ]
-        
+                
         Alamofire.request(.GET, "\(URCountryProgramManager.getCountryProgramByCountry(country).rapidProHostAPI)boundaries.json?aliases=true", parameters: nil, encoding: .JSON, headers: headers).responseJSON { (_, _, JSON) -> Void in
             
             let response = JSON.value as! NSDictionary

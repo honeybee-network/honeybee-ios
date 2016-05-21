@@ -271,6 +271,8 @@ class URUserRegisterViewController: UIViewController, UIPickerViewDelegate, UIPi
             
             if let gender = self.userInput!.gender {
                 
+                self.gender = gender
+                
                 self.localizedGender = gender
                 
                 if gender == "Male" {
@@ -564,7 +566,7 @@ class URUserRegisterViewController: UIViewController, UIPickerViewDelegate, UIPi
                 
                 self.setupFinishLoadingTextField(self.txtState, placeholder: "state".localized)
                 
-                if let states = states {
+                if let states = states where !states.isEmpty {
                     self.states = states
                     self.pickerStates?.reloadAllComponents()
                 }else {

@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URGroupDetailsViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URGroupDetailsViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="btAddUreporter" destination="VMx-SK-OrE" id="dWX-Q0-OUn"/>
                 <outlet property="btAddUreporterHeight" destination="sDV-Hi-JD4" id="okm-rJ-AY3"/>
@@ -32,7 +32,7 @@
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIK-5F-bSx" userLabel="ViewTop">
                                     <rect key="frame" x="0.0" y="0.0" width="1025" height="178"/>
-                                    <color key="backgroundColor" red="0.25882352941176467" green="0.71372549019607845" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="180" id="vjm-fD-MTa">
                                             <variation key="widthClass=regular" constant="179"/>
@@ -60,7 +60,7 @@
                                                 <outlet property="delegate" destination="-1" id="ooy-JW-jUq"/>
                                             </connections>
                                         </tableView>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fxb-bF-bzG" userLabel="ViewPictureGroup" customClass="ISRoundedView" customModule="ureport" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fxb-bF-bzG" userLabel="ViewPictureGroup" customClass="ISRoundedView" customModule="honeybee" customModuleProvider="target">
                                             <rect key="frame" x="16" y="55" width="75" height="75"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oeL-Vb-a5u">
@@ -92,7 +92,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="36" id="sDV-Hi-JD4"/>
                                             </constraints>
-                                            <state key="normal" title="Add U-Reporter">
+                                            <state key="normal" title="Add Honeybee">
                                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
                                             <connections>
@@ -125,7 +125,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.25882352939999997" green="0.71372549019999998" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="513" id="01B-KA-Gbs"/>
                                         <constraint firstItem="uwW-fk-jea" firstAttribute="top" secondItem="VMx-SK-OrE" secondAttribute="bottom" id="3cm-w7-oTX"/>

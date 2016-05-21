@@ -16,9 +16,9 @@ struct URConstant {
     static let isIpad = UIDevice.currentDevice().userInterfaceIdiom == .Pad
     
     struct Color {
-        static let PRIMARY = UIColor(rgba: "#42b6e7")
+        static let PRIMARY = UIColor(rgba: "#6A63BA")
         static let PRIMARY_DARK = UIColor(rgba: "#3aadda")
-        static let DARK_BLUE = UIColor(rgba: "#5398C7")
+        static let DARK_PURPLE = UIColor(rgba: "#4F4998")
         static let TRANSLUCENT_COVER = UIColor(rgba: "#6000")
         static let WINDOW_BACKGROUND = UIColor(rgba: "#e1e1e1")
         static let YELLOW = UIColor(rgba: "#ebce2c")
@@ -129,7 +129,7 @@ struct URConstant {
     
     struct RapidPro {
         static let GLOBAL = "GLOBAL"
-        static let API_URL = "https://api.rapidpro.io/api/v1/"
+        static let API_URL = "http://honeybeelive.org/api/v1/"
         static let API_NEWS = "http://ureport.in/api/v1/stories/org/"
     }
     
