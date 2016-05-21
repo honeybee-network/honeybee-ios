@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URPollResultViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URPollResultViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="btComment" destination="j0O-Nl-TuS" id="usm-i3-5XG"/>
                 <outlet property="tableView" destination="S94-Q1-yq8" id="NlE-kQ-es0"/>
@@ -27,7 +27,7 @@
                 </tableView>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0O-Nl-TuS">
                     <rect key="frame" x="5" y="550" width="590" height="50"/>
-                    <color key="backgroundColor" red="0.11930310099999999" green="0.93830605160000002" blue="0.56131890780000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="l4g-yl-yNs"/>
                     </constraints>
