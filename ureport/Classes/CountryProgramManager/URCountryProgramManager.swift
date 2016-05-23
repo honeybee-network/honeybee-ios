@@ -34,7 +34,6 @@ class URCountryProgramManager: NSObject {
         
         if countryPrograms == nil {
             countryPrograms = []
-            countryPrograms.append(URCountryProgram(code: "GLOBAL", themeColor: URConstant.Color.PRIMARY, org:13, name: "Honey Bee Global",twitter:"UReportGlobal",facebook:nil,rapidProHostAPI: URConstant.RapidPro.API_URL,ureportHostAPI: URConstant.RapidPro.API_NEWS, groupName: "Honeybees"))
             countryPrograms.append(URCountryProgram(code: "IND", themeColor: URConstant.Color.PRIMARY, org:13, name: "India",twitter:"UReportGlobal",facebook:nil,rapidProHostAPI: URConstant.RapidPro.API_URL,ureportHostAPI: URConstant.RapidPro.API_NEWS, groupName: "Honeybees"))              
         }
         

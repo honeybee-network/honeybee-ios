@@ -54,6 +54,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
+      "filename" : "ipad_portrait3 copy.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"

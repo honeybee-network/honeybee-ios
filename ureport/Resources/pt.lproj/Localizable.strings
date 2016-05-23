@@ -301,6 +301,7 @@
 "no_hardware_permission_camera" = "Para concluir esta ação por favor forneça permissão de acesso a câmera";
 "no_hardware_permission_microphone" = "Para concluir esta ação por favor forneça permissão de acesso ao microfone";
 "no_hardware_permission_contact" = "Para concluir esta ação por favor forneça permissão de acesso a lista de contatos";
+"more_details" = "Mais Detalhes";
 
 //TUTORIAL
 

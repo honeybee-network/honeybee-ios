@@ -23,7 +23,7 @@ class URClosedPollTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.containerView.layer.cornerRadius = 5
-        self.lbSeeResults.text = "polls_see_results".localized
+        self.lbSeeResults.text = "more_details".localized
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

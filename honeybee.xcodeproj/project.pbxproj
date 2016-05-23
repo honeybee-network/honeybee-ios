@@ -49,6 +49,9 @@
 		6548506F1BB1FADA0002A3D5 /* URPollResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6548506E1BB1FADA0002A3D5 /* URPollResultViewController.swift */; };
 		654850741BB209C80002A3D5 /* URChoiceResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654850721BB209C80002A3D5 /* URChoiceResultView.xib */; };
 		654850761BB209E70002A3D5 /* URChoiceResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654850751BB209E70002A3D5 /* URChoiceResultView.swift */; };
+		654942831CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654942821CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift */; };
+		654942871CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654942851CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift */; };
+		654942881CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654942861CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib */; };
 		654CB3C51BAB632100D8803B /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CB3C41BAB632100D8803B /* Serializable.swift */; };
 		6554D0981B934CCB009C5E89 /* URNewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6554D0961B934CCB009C5E89 /* URNewGroupViewController.swift */; };
 		6554D0991B934CCB009C5E89 /* URNewGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6554D0971B934CCB009C5E89 /* URNewGroupViewController.xib */; };
@@ -341,6 +344,9 @@
 		6548506E1BB1FADA0002A3D5 /* URPollResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URPollResultViewController.swift; sourceTree = "<group>"; };
 		654850721BB209C80002A3D5 /* URChoiceResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URChoiceResultView.xib; sourceTree = "<group>"; };
 		654850751BB209E70002A3D5 /* URChoiceResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URChoiceResultView.swift; sourceTree = "<group>"; };
+		654942821CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URChallengeDetailTableViewController.swift; sourceTree = "<group>"; };
+		654942851CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URChallengeDetailTableViewCell.swift; sourceTree = "<group>"; };
+		654942861CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URChallengeDetailTableViewCell.xib; sourceTree = "<group>"; };
 		654CB3C41BAB632100D8803B /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
 		6554D0961B934CCB009C5E89 /* URNewGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URNewGroupViewController.swift; sourceTree = "<group>"; };
 		6554D0971B934CCB009C5E89 /* URNewGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URNewGroupViewController.xib; sourceTree = "<group>"; };
@@ -774,6 +780,7 @@
 		65409FE21B4C845200344D75 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				654942811CF3B80900F9FE0B /* ChallengeDetail */,
 				65DBAEBF1CEA5DF500A8B514 /* PollContributionModal */,
 				65DBAEBC1CEA5DD300A8B514 /* PollContributionTable */,
 				6566A5C71CD262DF00A0730F /* IPadPoll */,
@@ -954,6 +961,7 @@
 		65409FE91B4C845200344D75 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				654942841CF3B84900F9FE0B /* ChallengeDetail */,
 				65DBAEB71CEA45EC00A8B514 /* Contribution */,
 				65D61BA81C111EAB0059F1B0 /* WriteStory */,
 				656561F71BD58DC000EBA9BD /* Settings */,
@@ -1028,6 +1036,23 @@
 				654850751BB209E70002A3D5 /* URChoiceResultView.swift */,
 			);
 			path = ChoiceResult;
+			sourceTree = "<group>";
+		};
+		654942811CF3B80900F9FE0B /* ChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				654942821CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift */,
+			);
+			path = ChallengeDetail;
+			sourceTree = "<group>";
+		};
+		654942841CF3B84900F9FE0B /* ChallengeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				654942851CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift */,
+				654942861CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib */,
+			);
+			path = ChallengeDetail;
 			sourceTree = "<group>";
 		};
 		6554D0921B934CAF009C5E89 /* NewGroup */ = {
@@ -1799,6 +1824,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65609F131C714C0F0039A8AB /* Localizable.strings in Resources */,
+				654942881CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib in Resources */,
 				6556918B1B7E6A0D00525E00 /* URAddMarkerTableViewCell.xib in Resources */,
 				65EA8C211BB0792800F2E29E /* URAboutViewController.xib in Resources */,
 				65D0F39B1BA7625000E5D367 /* URMediaView.xib in Resources */,
@@ -1982,6 +2008,7 @@
 				655690781B7CFF5100525E00 /* ISViewExtension.swift in Sources */,
 				658949BE1B83E1740087F361 /* ISMenuViewController.swift in Sources */,
 				974249531BFE5F6A0024384E /* URFlowTypeValidation.swift in Sources */,
+				654942871CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift in Sources */,
 				97A5A6F41C0E2B07006CBA25 /* URGcmPriority.swift in Sources */,
 				97FBAA571C0644120012D752 /* NSLocale+ISO639_2.m in Sources */,
 				656562051BD5962400EBA9BD /* URSettings.swift in Sources */,
@@ -2064,6 +2091,7 @@
 				6548506B1BB1EFAC0002A3D5 /* URPollResultTableViewCell.swift in Sources */,
 				655690771B7CFF5100525E00 /* ISShareUtil.swift in Sources */,
 				6556917C1B7D860D00525E00 /* URClosedPollTableViewController.swift in Sources */,
+				654942831CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift in Sources */,
 				6556908D1B7D12BB00525E00 /* URWordsResult.swift in Sources */,
 				65B16FE11BB9F53300BDBDEE /* URRankingTableViewCell.swift in Sources */,
 				974249351BFBDADE0024384E /* URFlowRuleset.swift in Sources */,

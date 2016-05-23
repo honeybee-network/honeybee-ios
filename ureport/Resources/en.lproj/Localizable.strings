@@ -300,6 +300,7 @@
 "no_hardware_permission_camera" = "To complete this action please provide permission to access the camera";
 "no_hardware_permission_microphone" = "To complete this action please provide the microphone access permission";
 "no_hardware_permission_contact" = "To complete this action please provide permission to access the contact list";
+"more_details" = "More Details";
 
 //TUTORIAL
 
