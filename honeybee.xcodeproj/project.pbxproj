@@ -49,7 +49,6 @@
 		6548506F1BB1FADA0002A3D5 /* URPollResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6548506E1BB1FADA0002A3D5 /* URPollResultViewController.swift */; };
 		654850741BB209C80002A3D5 /* URChoiceResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654850721BB209C80002A3D5 /* URChoiceResultView.xib */; };
 		654850761BB209E70002A3D5 /* URChoiceResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654850751BB209E70002A3D5 /* URChoiceResultView.swift */; };
-		654942831CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654942821CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift */; };
 		654942871CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654942851CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift */; };
 		654942881CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654942861CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib */; };
 		654CB3C51BAB632100D8803B /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CB3C41BAB632100D8803B /* Serializable.swift */; };
@@ -116,6 +115,10 @@
 		656A2BE41B98C7780079BD6A /* URGCMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A2BE31B98C7780079BD6A /* URGCMManager.swift */; };
 		656AAD001CEFAA4D00426ADB /* URBackendAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AACFF1CEFAA4D00426ADB /* URBackendAuthManager.swift */; };
 		6571F5481CF0ABA400994E87 /* residual.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6571F5471CF0ABA400994E87 /* residual.ttf */; };
+		65745F271CF3E36F001659E2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65745F251CF3E36F001659E2 /* HeaderView.swift */; };
+		65745F281CF3E36F001659E2 /* UIExpandableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65745F261CF3E36F001659E2 /* UIExpandableTableView.swift */; };
+		65745F2B1CF3E404001659E2 /* URChallengeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65745F291CF3E404001659E2 /* URChallengeDetailViewController.swift */; };
+		65745F2C1CF3E404001659E2 /* URChallengeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65745F2A1CF3E404001659E2 /* URChallengeDetailViewController.xib */; };
 		657629161BE135010095772F /* URModerationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657629151BE135010095772F /* URModerationViewController.swift */; };
 		657629191BE13A360095772F /* URModeratorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657629181BE13A360095772F /* URModeratorTableViewController.swift */; };
 		65780CB81C5FFF150025398D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65780CB71C5FFF150025398D /* MobileCoreServices.framework */; };
@@ -344,7 +347,6 @@
 		6548506E1BB1FADA0002A3D5 /* URPollResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URPollResultViewController.swift; sourceTree = "<group>"; };
 		654850721BB209C80002A3D5 /* URChoiceResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URChoiceResultView.xib; sourceTree = "<group>"; };
 		654850751BB209E70002A3D5 /* URChoiceResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URChoiceResultView.swift; sourceTree = "<group>"; };
-		654942821CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URChallengeDetailTableViewController.swift; sourceTree = "<group>"; };
 		654942851CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URChallengeDetailTableViewCell.swift; sourceTree = "<group>"; };
 		654942861CF3B85B00F9FE0B /* URChallengeDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URChallengeDetailTableViewCell.xib; sourceTree = "<group>"; };
 		654CB3C41BAB632100D8803B /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
@@ -414,6 +416,10 @@
 		656AACFF1CEFAA4D00426ADB /* URBackendAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URBackendAuthManager.swift; sourceTree = "<group>"; };
 		65711A2C1C40502500E05BBD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6571F5471CF0ABA400994E87 /* residual.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = residual.ttf; sourceTree = "<group>"; };
+		65745F251CF3E36F001659E2 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		65745F261CF3E36F001659E2 /* UIExpandableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExpandableTableView.swift; sourceTree = "<group>"; };
+		65745F291CF3E404001659E2 /* URChallengeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URChallengeDetailViewController.swift; sourceTree = "<group>"; };
+		65745F2A1CF3E404001659E2 /* URChallengeDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = URChallengeDetailViewController.xib; sourceTree = "<group>"; };
 		657629151BE135010095772F /* URModerationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URModerationViewController.swift; sourceTree = "<group>"; };
 		657629181BE13A360095772F /* URModeratorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URModeratorTableViewController.swift; sourceTree = "<group>"; };
 		65780CB71C5FFF150025398D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -933,6 +939,7 @@
 		65409FE71B4C845200344D75 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				65745F241CF3E348001659E2 /* ExpandableTableView */,
 				65DFCD001CE3CFDE00E4DFD9 /* Proposer */,
 				97FBAA541C0643940012D752 /* NSLocaleISO639_2 */,
 				65D0F3A21BA774C500E5D367 /* ISScrollViewPage */,
@@ -1041,7 +1048,8 @@
 		654942811CF3B80900F9FE0B /* ChallengeDetail */ = {
 			isa = PBXGroup;
 			children = (
-				654942821CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift */,
+				65745F291CF3E404001659E2 /* URChallengeDetailViewController.swift */,
+				65745F2A1CF3E404001659E2 /* URChallengeDetailViewController.xib */,
 			);
 			path = ChallengeDetail;
 			sourceTree = "<group>";
@@ -1207,6 +1215,15 @@
 				656AACFF1CEFAA4D00426ADB /* URBackendAuthManager.swift */,
 			);
 			path = BackendAuthManager;
+			sourceTree = "<group>";
+		};
+		65745F241CF3E348001659E2 /* ExpandableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				65745F251CF3E36F001659E2 /* HeaderView.swift */,
+				65745F261CF3E36F001659E2 /* UIExpandableTableView.swift */,
+			);
+			path = ExpandableTableView;
 			sourceTree = "<group>";
 		};
 		657629141BE134EA0095772F /* Moderation */ = {
@@ -1849,6 +1866,7 @@
 				6515FB7B1B881AE100CEEC3B /* LaunchImages.xcassets in Resources */,
 				65A45CD31B8768D8001C6808 /* URNewsTableViewCell.xib in Resources */,
 				65FAF0D41BC41AF300F8B380 /* URGroupDetailsViewController.xib in Resources */,
+				65745F2C1CF3E404001659E2 /* URChallengeDetailViewController.xib in Resources */,
 				65DBAEBB1CEA45EC00A8B514 /* URContributionTableViewCell.xib in Resources */,
 				658D14C41C9B54A2009A63A5 /* URMediaVideoPhoneView.xib in Resources */,
 				658D85811B54597700DFB949 /* URForgotPasswordViewController.xib in Resources */,
@@ -2041,6 +2059,7 @@
 				65F47F541C654B79009A2066 /* URImageMedia.swift in Sources */,
 				65075AF11C7DF3C6008CF8F3 /* URDownloader.swift in Sources */,
 				652F8AA81BA0D8C10096C8DC /* URCountryProgramManager.swift in Sources */,
+				65745F2B1CF3E404001659E2 /* URChallengeDetailViewController.swift in Sources */,
 				65DFCD021CE3CFE900E4DFD9 /* UIViewController+Proposer.swift in Sources */,
 				65F8B3221BE92EB9009F9CAB /* URStringExtension.swift in Sources */,
 				9742493E1BFCE2F00024384E /* URCurrentPollView.swift in Sources */,
@@ -2091,7 +2110,6 @@
 				6548506B1BB1EFAC0002A3D5 /* URPollResultTableViewCell.swift in Sources */,
 				655690771B7CFF5100525E00 /* ISShareUtil.swift in Sources */,
 				6556917C1B7D860D00525E00 /* URClosedPollTableViewController.swift in Sources */,
-				654942831CF3B81E00F9FE0B /* URChallengeDetailTableViewController.swift in Sources */,
 				6556908D1B7D12BB00525E00 /* URWordsResult.swift in Sources */,
 				65B16FE11BB9F53300BDBDEE /* URRankingTableViewCell.swift in Sources */,
 				974249351BFBDADE0024384E /* URFlowRuleset.swift in Sources */,
@@ -2109,6 +2127,7 @@
 				656561FE1BD58E9600EBA9BD /* URSettingsTableViewController.swift in Sources */,
 				65B16FDC1BB5E7AB00BDBDEE /* URProfileViewController.swift in Sources */,
 				65F077251CB5A9BF00A1D608 /* URChatAudioItem.swift in Sources */,
+				65745F281CF3E36F001659E2 /* UIExpandableTableView.swift in Sources */,
 				655690A11B7D150D00525E00 /* URChatRoom.swift in Sources */,
 				6530BE6A1B974ADB00C9707C /* SWRevealViewController.m in Sources */,
 				658D14C61C9B54EE009A63A5 /* URMediaVideoPhoneView.swift in Sources */,
@@ -2116,6 +2135,7 @@
 				65409FF51B4C9E7C00344D75 /* URUserRegisterViewController.swift in Sources */,
 				9742492F1BFBD4FE0024384E /* URFlowDefinition.swift in Sources */,
 				65685ADA1BA224BB00099CFB /* URRapidProManager.swift in Sources */,
+				65745F271CF3E36F001659E2 /* HeaderView.swift in Sources */,
 				65D0F39D1BA7627800E5D367 /* URMediaView.swift in Sources */,
 				6556909B1B7D14A100525E00 /* URIndividualChatRoom.swift in Sources */,
 				65409FEE1B4C84DE00344D75 /* URLoginViewController.swift in Sources */,

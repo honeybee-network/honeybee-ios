@@ -40,18 +40,18 @@ class URPollManager: NSObject {
             .childByAppendingPath(URCountryProgramManager.activeCountryProgram()!.code)
             .childByAppendingPath(URPollManager.path())
             .observeEventType(FEventType.ChildAdded, withBlock: { (snapshot) in
-                if let delegate = self.delegate {
-                    
-                    let poll = URPoll(jsonDict: snapshot.value as? NSDictionary)
-                    let category = URPollCategory(jsonDict: (snapshot.value as! NSDictionary).objectForKey("category")! as? NSDictionary)
-                    
-                    category.color = URPollManager.getAvailableColorToCategory(category, index: self.pollIndex)
-                    
-                    poll.key = snapshot.key
-                    poll.category = category
+                
+                let poll = URPoll(jsonDict: snapshot.value as? NSDictionary)
+                let category = URPollCategory(jsonDict: (snapshot.value as! NSDictionary).objectForKey("category")! as? NSDictionary)
+                
+                category.color = URPollManager.getAvailableColorToCategory(category, index: self.pollIndex)
+                
+                poll.key = snapshot.key
+                poll.category = category
+                self.pollIndex += 1
+                
+                if let delegate = self.delegate {                    
                     delegate.newPollReceived(poll)
-                    
-                    self.pollIndex += 1
                 }
             })
     }

@@ -86,6 +86,9 @@ class URMainViewController: UITabBarController, UITabBarControllerDelegate, URCl
     func tableViewCellDidTap(cell: URClosedPollTableViewCell, isIPad:Bool) {
         if !isIPad {
 //            self.navigationController?.pushViewController(URPollResultViewController(poll: cell.poll), animated: true)
+            let challengeDetailViewController = URChallengeDetailViewController()
+            challengeDetailViewController.poll = cell.poll
+            self.navigationController?.pushViewController(challengeDetailViewController, animated: true)
         }
     }
     

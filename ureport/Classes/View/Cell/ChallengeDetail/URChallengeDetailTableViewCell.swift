@@ -10,6 +10,8 @@ import UIKit
 
 class URChallengeDetailTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lbContent:UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -17,8 +19,7 @@ class URChallengeDetailTableViewCell: UITableViewCell {
 
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        super.selectionStyle = UITableViewCellSelectionStyle.None
     }
     
 }

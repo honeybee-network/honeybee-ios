@@ -18,5 +18,7 @@ class URPoll: Serializable {
     var polled:String!
     var responded:String!
     var category:URPollCategory!
-    
+    var expected_outcome:String?
+    var issue:String?
+    var need:String?
 }

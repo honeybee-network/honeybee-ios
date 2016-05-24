@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URChallengeDetailViewController" customModule="honeybee" customModuleProvider="target">
+            <connections>
+                <outlet property="lbPollArea" destination="UJY-tD-zWl" id="1pg-Lw-tqj"/>
+                <outlet property="lbPollName" destination="WHw-3v-qZZ" id="aMV-7d-bdf"/>
+                <outlet property="segmentedControl" destination="I5K-DE-ZwN" id="G6T-Hv-iCR"/>
+                <outlet property="tableView" destination="ep3-7T-6yd" id="TEz-mX-8la"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="I5K-DE-ZwN">
+                    <rect key="frame" x="34" y="90" width="533" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="jPx-bf-55l"/>
+                    </constraints>
+                    <segments>
+                        <segment title="Challenge"/>
+                        <segment title="Results"/>
+                    </segments>
+                    <color key="tintColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZY-5T-ifd">
+                    <rect key="frame" x="0.0" y="137" width="600" height="463"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ep3-7T-6yd" customClass="UIExpandableTableView" customModule="honeybee" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="73" width="600" height="390"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="w70-p3-Ok6"/>
+                                <outlet property="delegate" destination="-1" id="V9J-52-Tyg"/>
+                            </connections>
+                        </tableView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="WHw-3v-qZZ">
+                            <rect key="frame" x="16" y="0.0" width="568" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="Wxa-cz-pnd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZKq-ce-IzD">
+                            <rect key="frame" x="16" y="39" width="568" height="1"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="OPU-X1-qxn"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="UJY-tD-zWl">
+                            <rect key="frame" x="16" y="45" width="568" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="VHk-Z4-cmk"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ep3-7T-6yd" secondAttribute="bottom" id="AzM-4n-xcJ"/>
+                        <constraint firstItem="UJY-tD-zWl" firstAttribute="leading" secondItem="GZY-5T-ifd" secondAttribute="leading" constant="16" id="CR2-DS-DV5"/>
+                        <constraint firstAttribute="trailing" secondItem="ep3-7T-6yd" secondAttribute="trailing" id="FKE-j8-AU9"/>
+                        <constraint firstItem="ep3-7T-6yd" firstAttribute="top" secondItem="UJY-tD-zWl" secondAttribute="bottom" constant="8" id="JHF-kX-xVo"/>
+                        <constraint firstItem="ZKq-ce-IzD" firstAttribute="top" secondItem="WHw-3v-qZZ" secondAttribute="bottom" constant="2" id="Otn-7d-Scg"/>
+                        <constraint firstAttribute="trailing" secondItem="UJY-tD-zWl" secondAttribute="trailing" constant="16" id="PoJ-aI-a2t"/>
+                        <constraint firstAttribute="trailing" secondItem="ZKq-ce-IzD" secondAttribute="trailing" constant="16" id="Szj-6b-j1i"/>
+                        <constraint firstAttribute="trailing" secondItem="WHw-3v-qZZ" secondAttribute="trailing" constant="16" id="f4g-B8-64M"/>
+                        <constraint firstItem="WHw-3v-qZZ" firstAttribute="leading" secondItem="GZY-5T-ifd" secondAttribute="leading" constant="16" id="hdX-p1-rLc"/>
+                        <constraint firstItem="ZKq-ce-IzD" firstAttribute="leading" secondItem="GZY-5T-ifd" secondAttribute="leading" constant="16" id="mkP-JN-3Q4"/>
+                        <constraint firstItem="ep3-7T-6yd" firstAttribute="leading" secondItem="GZY-5T-ifd" secondAttribute="leading" id="q1z-OH-Q3W"/>
+                        <constraint firstItem="UJY-tD-zWl" firstAttribute="top" secondItem="ZKq-ce-IzD" secondAttribute="bottom" constant="5" id="uXg-vc-0aN"/>
+                        <constraint firstItem="WHw-3v-qZZ" firstAttribute="top" secondItem="GZY-5T-ifd" secondAttribute="top" id="yzZ-mJ-3x9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="I5K-DE-ZwN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="34" id="SDz-WX-vZR"/>
+                <constraint firstItem="GZY-5T-ifd" firstAttribute="top" secondItem="I5K-DE-ZwN" secondAttribute="bottom" constant="19" id="XA9-jJ-oHE"/>
+                <constraint firstItem="I5K-DE-ZwN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="dkV-pG-cC2"/>
+                <constraint firstAttribute="trailing" secondItem="GZY-5T-ifd" secondAttribute="trailing" id="jTP-fV-iyv"/>
+                <constraint firstItem="GZY-5T-ifd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mpg-s0-7ZG"/>
+                <constraint firstAttribute="bottom" secondItem="GZY-5T-ifd" secondAttribute="bottom" id="nAd-IJ-IUe"/>
+                <constraint firstAttribute="trailing" secondItem="I5K-DE-ZwN" secondAttribute="trailing" constant="33" id="sfy-aM-cpf"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>

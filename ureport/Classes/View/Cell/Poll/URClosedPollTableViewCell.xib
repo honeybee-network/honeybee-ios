@@ -51,7 +51,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="751" verticalHuggingPriority="751" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvK-6A-gYh">
-                                <rect key="frame" x="10" y="40" width="290" height="70"/>
+                                <rect key="frame" x="10" y="40" width="290" height="53"/>
                                 <string key="text">Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.41568627450000001" green="0.38823529410000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -75,7 +75,7 @@
                             <constraint firstItem="8eT-yU-F9i" firstAttribute="leading" secondItem="MS8-QK-Tmu" secondAttribute="leading" id="keG-or-TAJ"/>
                             <constraint firstAttribute="trailing" secondItem="8eT-yU-F9i" secondAttribute="trailing" id="kvz-8z-65K"/>
                             <constraint firstAttribute="trailing" secondItem="DvK-6A-gYh" secondAttribute="trailing" constant="10" id="onR-1z-sxb"/>
-                            <constraint firstItem="PAf-cd-B0R" firstAttribute="top" secondItem="DvK-6A-gYh" secondAttribute="bottom" constant="9.5" id="oq8-rK-pYT"/>
+                            <constraint firstItem="PAf-cd-B0R" firstAttribute="top" secondItem="DvK-6A-gYh" secondAttribute="bottom" constant="26" id="oq8-rK-pYT"/>
                             <constraint firstItem="DvK-6A-gYh" firstAttribute="leading" secondItem="MS8-QK-Tmu" secondAttribute="leading" constant="10" id="pJ6-jm-Yvv"/>
                             <constraint firstAttribute="bottom" secondItem="PAf-cd-B0R" secondAttribute="bottom" id="pWO-dr-kMU"/>
                             <constraint firstItem="DvK-6A-gYh" firstAttribute="top" secondItem="8eT-yU-F9i" secondAttribute="bottom" constant="12" id="rOL-lJ-fuG"/>

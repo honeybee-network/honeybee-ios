@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URClosedPollTableViewController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URClosedPollTableViewController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="contentViewHeight" destination="DrN-yF-Mvs" id="cjM-ws-g3l"/>
                 <outlet property="scrollView" destination="qvQ-tK-8VQ" id="Nfs-8K-TXK"/>
