@@ -13,8 +13,13 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
     @IBOutlet weak var segmentedControl:UISegmentedControl!
     @IBOutlet weak var tableView:UIExpandableTableView!
     
+    @IBOutlet weak var viewResult:UIView!
+    @IBOutlet weak var viewChallenge:UIView!
+    
     @IBOutlet weak var lbPollName: UILabel!
     @IBOutlet weak var lbPollArea: UILabel!
+    
+    let pollResultController = URPollResultViewController()
     
     var poll:URPoll!
     var items:[[String]] = []
@@ -29,7 +34,7 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupUI()
         setupTableView()
         setupData()
     }
@@ -95,13 +100,46 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
+    //MARK: Events
+    
+    
+    @IBAction func segmentedControlDidChange(sender: UISegmentedControl) {
+        
+        switch sender.selectedSegmentIndex {
+        case 0:
+            self.viewResult.hidden = true
+            self.viewChallenge.hidden = false
+            break
+        case 1:
+            self.viewChallenge.hidden = true
+            self.viewResult.hidden = false
+            break
+        default:
+            break
+        }
+        
+    }
+    
     //MARK: Class Methods
     
     func timerToggle(timer:NSTimer) {
         (timer.userInfo as! HeaderView).toggle()
     }
     
+    func setupUI() {
+        displayChildController(pollResultController)
+    }
+    
+    func displayChildController(content: UIViewController) {
+        self.addChildViewController(content)
+        content.view.frame = CGRect(x: 0, y: 0, width: viewResult.bounds.size.width, height: viewResult.bounds.size.height)
+        self.viewResult.insertSubview(content.view, atIndex: 0)
+        content.didMoveToParentViewController(self)
+    }
+    
     func setupData() {
+        
+        pollResultController.poll = poll
         
         self.lbPollName.text = poll.title
         self.lbPollArea.text = poll.category.name
@@ -137,9 +175,26 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
 //        self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 49, 0);
         self.tableView.rowHeight = UITableViewAutomaticDimension;
         self.tableView.estimatedRowHeight = 50;
-        self.tableView.registerNib(UINib(nibName: "URChallengeDetailTableViewCell", bundle: nil), forCellReuseIdentifier: NSStringFromClass(URChallengeDetailTableViewCell.self))        
+        self.tableView.registerNib(UINib(nibName: "URChallengeDetailTableViewCell", bundle: nil), forCellReuseIdentifier: NSStringFromClass(URChallengeDetailTableViewCell.self))
         self.tableView.separatorColor = UIColor.clearColor()
     }
 
+    //MARK: Buton Events
+    
+    @IBAction func btEnterTapped(button:UIButton) {
+        if let chatRoomKey = poll.chat_room {
+            ProgressHUD.show(nil)
+            URChatRoomManager.getByKey(chatRoomKey, completion: { (chatRoom) in
+                let groupChatRoom = chatRoom as! URGroupChatRoom
+                URChatMemberManager.getChatMembersByChatRoomWithCompletion(chatRoomKey, completionWithUsers: { (users:[URUser]) in
+                    ProgressHUD.dismiss()
+                    self.navigationController?.pushViewController(URMessagesViewController(chatRoom: chatRoom, chatMembers: users, title: groupChatRoom.title), animated: true)
+                })
+                
+            })
+        }else {
+//            self.navigationController?.pushViewController(URMessagesViewController(chatRoom: chatRoom, chatMembers: users, title: groupChatRoom.title), animated: true)
+        }
+    }
 
 }

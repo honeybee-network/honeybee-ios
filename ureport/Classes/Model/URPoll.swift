@@ -21,4 +21,5 @@ class URPoll: Serializable {
     var expected_outcome:String?
     var issue:String?
     var need:String?
+    var chat_room:String?
 }
