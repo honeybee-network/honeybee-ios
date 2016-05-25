@@ -13,6 +13,7 @@ class URPollViewIPadController: UIViewController, URClosedPollTableViewControlle
     @IBOutlet weak var leftView: UIView!
     @IBOutlet weak var contentLeftView: UIView!
     @IBOutlet weak var rightView: UIView!
+    @IBOutlet weak var rightViewLoad: UIView!
     @IBOutlet weak var lbMessage: UILabel!
     @IBOutlet weak var imgMessage: UIImageView!
     
@@ -28,7 +29,7 @@ class URPollViewIPadController: UIViewController, URClosedPollTableViewControlle
     }
     
     let closedPollTableViewController = URClosedPollTableViewController()
-    let pollResultViewController = URPollResultViewController()
+    let challengeDetailViewController = URChallengeDetailViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +52,7 @@ class URPollViewIPadController: UIViewController, URClosedPollTableViewControlle
         closedPollTableViewController.view.frame = CGRect(x: 0, y: 0, width: contentLeftView.bounds.size.width, height: contentLeftView.bounds.size.height)
         closedPollTableViewController.tableView.contentSize = CGSize(width: contentLeftView.bounds.size.width, height: closedPollTableViewController.tableView.contentSize.height)
 //        pollResultTableViewController.view.frame = CGRect(x: 0, y: 0, width: rightView.bounds.size.width, height: rightView.bounds.size.height)
-        pollResultViewController.tableView.contentInset = UIEdgeInsets(top: 64, left: 0, bottom: 50, right: 0)
+        challengeDetailViewController.tableView.contentInset = UIEdgeInsets(top: 64, left: 0, bottom: 50, right: 0)
         closedPollTableViewController.onBoundsChanged()
     }
     
@@ -64,12 +65,13 @@ class URPollViewIPadController: UIViewController, URClosedPollTableViewControlle
     //MARK: URClosedPollTableViewControllerDelegate
     
     func tableViewCellDidTap(cell: URClosedPollTableViewCell, isIPad:Bool) {
-        pollResultViewController.btComment.hidden = false
+        self.rightViewLoad.hidden = true
         self.poll = cell.poll
         pollContributionModal.poll = poll
         self.lbMessage.hidden = true
         self.imgMessage.hidden = true
-        pollResultViewController.reloadWithPoll(self.poll!)
+        challengeDetailViewController.poll = poll
+        challengeDetailViewController.setupData()
     }
     
     //MARK: Button Events
@@ -98,8 +100,8 @@ class URPollViewIPadController: UIViewController, URClosedPollTableViewControlle
     
     func setupUI() {        
         displayLeftContentController(closedPollTableViewController)
-        displayRightContentController(pollResultViewController)
-        pollResultViewController.tableView.alwaysBounceVertical = false
+        displayRightContentController(challengeDetailViewController)
+        challengeDetailViewController.tableView.alwaysBounceVertical = false
     }
     
 }

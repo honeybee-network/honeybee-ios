@@ -76,6 +76,8 @@ class URPollResultViewController: UIViewController, URPollManagerDelegate {
         let cell = tableView.dequeueReusableCellWithIdentifier(NSStringFromClass(URPollResultTableViewCell.self), forIndexPath: indexPath) as! URPollResultTableViewCell
         
         cell.setupCellWithData(self.pollResultList[indexPath.row])
+        cell.contentView.backgroundColor = self.tableView.backgroundColor
+        cell.backgroundColor = self.tableView.backgroundColor
         
         return cell
     }
@@ -122,10 +124,10 @@ class URPollResultViewController: UIViewController, URPollManagerDelegate {
     }
     
     private func setupTableView() {
-        self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 49, 50);
-        self.tableView.backgroundColor = UIColor.groupTableViewBackgroundColor()
+//        self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 49, 50);
+        self.tableView.backgroundColor = UIColor.whiteColor()
         self.tableView.registerNib(UINib(nibName: "URPollResultTableViewCell", bundle: nil), forCellReuseIdentifier: NSStringFromClass(URPollResultTableViewCell.self))
-        self.tableView.separatorColor = UIColor.groupTableViewBackgroundColor()
+        self.tableView.separatorColor = UIColor.whiteColor()
         self.tableView.layoutMargins = UIEdgeInsetsZero
         self.tableView.separatorInset = UIEdgeInsetsZero
         self.tableView.alwaysBounceVertical = false

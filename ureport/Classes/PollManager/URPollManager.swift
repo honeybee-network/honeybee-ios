@@ -56,6 +56,19 @@ class URPollManager: NSObject {
             })
     }
     
+    class func updatePoll(poll:URPoll) {
+        URFireBaseManager.sharedInstance()
+            .childByAppendingPath(URCountryProgram.path())
+            .childByAppendingPath(URCountryProgramManager.activeCountryProgram()!.code)
+            .childByAppendingPath(self.path())
+            .childByAppendingPath(poll.key)
+            .setValue(poll.toDictionary(), withCompletionBlock: { (error:NSError!, firebase: Firebase!) -> Void in
+                if error != nil {
+                    print(error?.localizedDescription)
+                }
+            })
+    }
+    
     func getPollsResults(pollKey:String!) {
         
         URFireBaseManager.sharedInstance()

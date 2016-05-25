@@ -137,16 +137,16 @@ class URGroupDetailsViewController: UIViewController, URChatTableViewCellDelegat
     
     func setupGroupInfo() {
         
-        if groupChatRoom.administrator.key == URUser.activeUser()?.key {
+        if let user = URUser.activeUser() where user.masterModerator != nil && user.masterModerator == true {
             self.isUserAdmin = true
-        }else {
+        }else{
             self.btAddUreporterHeight.constant = 0
             self.btAddUreporter.hidden = true
         }
         
         self.lbGroupTitle.text = groupChatRoom.title
         self.lbSubject.text = groupChatRoom.subject
-        self.lbCreatedBy.text = String(format: "chat_group_info_created_date".localized, arguments: [groupChatRoom.administrator.nickname])
+        self.lbCreatedBy.hidden = true
         
         if let createdDate = groupChatRoom.createdDate {
              self.lbCreatedBy.text = "\( self.lbCreatedBy.text!) \(URDateUtil.birthDayFormatterRapidPro(NSDate(timeIntervalSince1970: NSNumber(double: createdDate.doubleValue/1000) as NSTimeInterval)))"

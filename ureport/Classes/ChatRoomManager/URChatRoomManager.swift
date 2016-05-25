@@ -85,12 +85,13 @@ class URChatRoomManager: NSObject {
             .observeSingleEventOfType(FEventType.Value, withBlock: { snapshot in
                 if ((snapshot != nil) && !(snapshot.value is NSNull)) {
                     
-                    if (snapshot.value as! NSDictionary).objectForKey("administrator") != nil {
+                    if (snapshot.value as! NSDictionary).objectForKey("type") as! String == URChatRoomType.Group {
                         
                         let administrator = URUser(jsonDict: (snapshot.value as! NSDictionary).objectForKey("administrator") as? NSDictionary)
                         let picture = URMedia(jsonDict: (snapshot.value as! NSDictionary).objectForKey("picture") as? NSDictionary)
                         let groupChatRoom = URGroupChatRoom(jsonDict: snapshot.value as? NSDictionary)
                         
+                        groupChatRoom.key = snapshot.key
                         groupChatRoom.createdDate = (snapshot.value as! NSDictionary).objectForKey("createdDate") as! NSNumber
                         groupChatRoom.administrator = administrator
                         groupChatRoom.picture = picture

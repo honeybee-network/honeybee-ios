@@ -40,15 +40,15 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="j0O-Nl-TuS" firstAttribute="top" secondItem="S94-Q1-yq8" secondAttribute="bottom" id="0Be-bp-vlD"/>
                 <constraint firstAttribute="bottom" secondItem="j0O-Nl-TuS" secondAttribute="bottom" id="0WB-2s-W69"/>
-                <constraint firstItem="S94-Q1-yq8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5BI-uQ-zyK"/>
-                <constraint firstAttribute="trailing" secondItem="S94-Q1-yq8" secondAttribute="trailing" id="EXR-uo-brq"/>
+                <constraint firstItem="j0O-Nl-TuS" firstAttribute="top" secondItem="S94-Q1-yq8" secondAttribute="bottom" id="Jlc-Yy-aDN"/>
+                <constraint firstItem="S94-Q1-yq8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QXq-G1-OAh"/>
+                <constraint firstAttribute="trailing" secondItem="S94-Q1-yq8" secondAttribute="trailing" id="ZSN-fg-oSY"/>
                 <constraint firstItem="j0O-Nl-TuS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="azN-H4-Eex"/>
+                <constraint firstItem="S94-Q1-yq8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eAU-B7-XBI"/>
                 <constraint firstAttribute="trailing" secondItem="j0O-Nl-TuS" secondAttribute="trailing" constant="5" id="fSY-qv-bjr"/>
-                <constraint firstItem="S94-Q1-yq8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sIf-cO-QLv"/>
             </constraints>
         </view>
     </objects>

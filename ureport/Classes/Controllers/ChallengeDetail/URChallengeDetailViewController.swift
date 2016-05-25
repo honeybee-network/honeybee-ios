@@ -13,9 +13,9 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
     @IBOutlet weak var segmentedControl:UISegmentedControl!
     @IBOutlet weak var tableView:UIExpandableTableView!
     
+    @IBOutlet weak var btEnter:UIButton!
     @IBOutlet weak var viewResult:UIView!
     @IBOutlet weak var viewChallenge:UIView!
-    
     @IBOutlet weak var lbPollName: UILabel!
     @IBOutlet weak var lbPollArea: UILabel!
     
@@ -36,7 +36,10 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
         super.viewDidLoad()
         setupUI()
         setupTableView()
-        setupData()
+        
+        if poll != nil {
+            setupData()
+        }
     }
 
     // MARK: UITableViewDataSource
@@ -127,6 +130,7 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
     }
     
     func setupUI() {
+        self.btEnter.layer.cornerRadius = 5
         displayChildController(pollResultController)
     }
     
@@ -143,6 +147,8 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
         
         self.lbPollName.text = poll.title
         self.lbPollArea.text = poll.category.name
+        
+        items = []
         
         for i in 0 ..< 3 {
             switch i {
@@ -168,6 +174,10 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
                 break
             }
         }
+        
+        self.pollResultController.btComment.hidden = false
+        self.pollResultController.reloadWithPoll(poll)
+        
         self.tableView.reloadData()
     }
     
@@ -188,12 +198,33 @@ class URChallengeDetailViewController: UIViewController, UITableViewDataSource, 
                 let groupChatRoom = chatRoom as! URGroupChatRoom
                 URChatMemberManager.getChatMembersByChatRoomWithCompletion(chatRoomKey, completionWithUsers: { (users:[URUser]) in
                     ProgressHUD.dismiss()
-                    self.navigationController?.pushViewController(URMessagesViewController(chatRoom: chatRoom, chatMembers: users, title: groupChatRoom.title), animated: true)
+                    self.navigationController?.pushViewController(URMessagesViewController(chatRoom: groupChatRoom, chatMembers: users, title: groupChatRoom.title), animated: true)
                 })
                 
             })
         }else {
-//            self.navigationController?.pushViewController(URMessagesViewController(chatRoom: chatRoom, chatMembers: users, title: groupChatRoom.title), animated: true)
+            
+            let groupChatRoom = URGroupChatRoom()
+            groupChatRoom.title = poll.title
+            groupChatRoom.subject = poll.issue
+            groupChatRoom.privateAccess = false
+            
+            groupChatRoom.createdDate = NSNumber(longLong:Int64(NSDate().timeIntervalSince1970 * 1000))
+            groupChatRoom.type = "Group"
+            
+            let main = URMainViewController()
+            URNavigationManager.addLeftButtonMenuInViewController(main)
+            
+            ProgressHUD.show(nil)
+            URChatRoomManager.save(groupChatRoom, members: [URUser.activeUser()!]) { (chatRoom:URChatRoom) -> Void in
+                
+                self.poll.chat_room = chatRoom.key
+                URPollManager.updatePoll(self.poll)
+                
+                URNavigationManager.navigation.setViewControllers([main,URMessagesViewController(chatRoom: chatRoom, chatMembers: [URUser.activeUser()!],title: groupChatRoom.title)], animated: true)
+            }
+            
+            
         }
     }
 

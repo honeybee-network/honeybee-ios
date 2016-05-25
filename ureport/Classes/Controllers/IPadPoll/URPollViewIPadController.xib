@@ -6,13 +6,14 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URPollViewIPadController" customModule="ureport" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="URPollViewIPadController" customModule="honeybee" customModuleProvider="target">
             <connections>
                 <outlet property="contentLeftView" destination="qPo-gG-QDb" id="sn1-1I-rTO"/>
                 <outlet property="imgMessage" destination="d11-dp-Ded" id="5Fd-Gc-h6U"/>
                 <outlet property="lbMessage" destination="vns-GQ-8R7" id="diR-xP-HFN"/>
                 <outlet property="leftView" destination="Pqp-EW-lcx" id="gNh-j2-QcA"/>
                 <outlet property="rightView" destination="nPy-wG-MYW" id="erp-F1-Z1a"/>
+                <outlet property="rightViewLoad" destination="IPV-Wk-X9O" id="71N-EP-0gg"/>
                 <outlet property="view" destination="iN0-l3-epB" id="R6n-v0-axe"/>
             </connections>
         </placeholder>
@@ -43,30 +44,42 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPy-wG-MYW">
                             <rect key="frame" x="485" y="0.0" width="516" height="619"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the previous poll to see results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vns-GQ-8R7">
-                                    <rect key="frame" x="125" y="327" width="266" height="21"/>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IPV-Wk-X9O">
+                                    <rect key="frame" x="0.0" y="0.0" width="516" height="619"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_logo_polls" translatesAutoresizingMaskIntoConstraints="NO" id="d11-dp-Ded">
+                                            <rect key="frame" x="232" y="271" width="53" height="38"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="53" id="FNk-4S-ak1"/>
+                                                <constraint firstAttribute="height" constant="38" id="ls6-zu-jQa"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the previous poll to see results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vns-GQ-8R7">
+                                            <rect key="frame" x="125" y="327" width="266" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="Jb4-Uy-dkW"/>
+                                                <constraint firstAttribute="width" constant="266" id="hra-n0-67B"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="21" id="Jb4-Uy-dkW"/>
-                                        <constraint firstAttribute="width" constant="266" id="hra-n0-67B"/>
+                                        <constraint firstItem="d11-dp-Ded" firstAttribute="centerX" secondItem="IPV-Wk-X9O" secondAttribute="centerX" id="Efb-qX-5eQ"/>
+                                        <constraint firstItem="vns-GQ-8R7" firstAttribute="centerY" secondItem="IPV-Wk-X9O" secondAttribute="centerY" constant="28" id="Gpz-nS-wN3"/>
+                                        <constraint firstItem="vns-GQ-8R7" firstAttribute="centerX" secondItem="IPV-Wk-X9O" secondAttribute="centerX" id="KRm-uY-O5t"/>
+                                        <constraint firstItem="d11-dp-Ded" firstAttribute="centerY" secondItem="IPV-Wk-X9O" secondAttribute="centerY" constant="-19.5" id="udo-km-Pii"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_logo_polls" translatesAutoresizingMaskIntoConstraints="NO" id="d11-dp-Ded">
-                                    <rect key="frame" x="232" y="271" width="53" height="38"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="53" id="FNk-4S-ak1"/>
-                                        <constraint firstAttribute="height" constant="38" id="ls6-zu-jQa"/>
-                                    </constraints>
-                                </imageView>
+                                </view>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="d11-dp-Ded" firstAttribute="centerX" secondItem="nPy-wG-MYW" secondAttribute="centerX" constant="0.5" id="GwO-cl-Xq2"/>
-                                <constraint firstItem="vns-GQ-8R7" firstAttribute="centerY" secondItem="nPy-wG-MYW" secondAttribute="centerY" constant="28" id="Ieh-JO-8ju"/>
-                                <constraint firstItem="vns-GQ-8R7" firstAttribute="centerX" secondItem="nPy-wG-MYW" secondAttribute="centerX" id="fn2-7O-ikh"/>
-                                <constraint firstItem="d11-dp-Ded" firstAttribute="centerY" secondItem="nPy-wG-MYW" secondAttribute="centerY" constant="-19.5" id="nLa-Yh-wW8"/>
+                                <constraint firstAttribute="bottom" secondItem="IPV-Wk-X9O" secondAttribute="bottom" id="72O-JN-AwK"/>
+                                <constraint firstAttribute="trailing" secondItem="IPV-Wk-X9O" secondAttribute="trailing" id="EZ1-1j-f6Z"/>
+                                <constraint firstItem="IPV-Wk-X9O" firstAttribute="leading" secondItem="nPy-wG-MYW" secondAttribute="leading" id="aeb-Ol-vcL"/>
+                                <constraint firstItem="IPV-Wk-X9O" firstAttribute="top" secondItem="nPy-wG-MYW" secondAttribute="top" id="sAI-bL-Gd5"/>
                             </constraints>
                         </view>
                     </subviews>
